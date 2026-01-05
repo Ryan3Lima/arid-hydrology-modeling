@@ -1,21 +1,191 @@
 ---
-title: "Week 1 – Conceptual Models & Arid Hydrology"
+title: "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)"
+subtitle: "Upper Verde River (HUC8 15060202) — building defensible assumptions from public data"
 ---
 
-## Objectives
+## Week goals
 
-- Understand groundwater flow in arid systems
-- Identify dominant recharge mechanisms
-- Develop defensible conceptual models under data scarcity
+By the end of Week 1, you will be able to:
 
-## Key Themes
+- Delineate a real basin using **USGS StreamStats** and extract basin characteristics
+- Build a **defensible conceptual groundwater model** for an arid/SW basin using proxy evidence
+- Identify likely **recharge zones**, **flow directions**, and **discharge zones** (with justification)
+- Write a short **assumptions + uncertainty memo** in a consulting style
 
-- Conceptual uncertainty > parameter uncertainty
-- Recharge as an inferred quantity
-- Basin-scale thinking
+---
 
-## Exercises
+## Case study basin
 
-1. Sketch a conceptual groundwater model for an arid basin
-2. Identify recharge pathways and uncertainties
-3. Write a 1–2 page conceptual model memo
+**Upper Verde River (HUC8: 15060202)** :contentReference[oaicite:2]{index=2}
+
+Why this basin works for learning:
+- Arizona-relevant hydroclimate and mixed mountain/basin settings
+- Strong groundwater–surface water interactions (springs/baseflow on parts of the Verde)
+- Plenty of public context, but still “real-world messy” in terms of uncertainty
+
+---
+
+## Tools you will use this week
+
+- **USGS StreamStats (Arizona application)** for basin delineation + basin characteristics :contentReference[oaicite:3]{index=3}
+- A basemap viewer (web) and/or GIS (optional) for hillshade/geology screenshots
+- Your notes (markdown or a dedicated `week-01-notes.md`)
+
+> You do not need to build a numerical model yet. The job skill this week is:
+> turning incomplete evidence into explicit, defensible assumptions.
+
+---
+
+## Deliverables (you will publish these to your repo)
+
+Create a folder: `curriculum/week-01-deliverables/`
+
+By the end of the week, commit:
+
+1. `upper-verde_streamstats_report.pdf` (or HTML print) + `upper-verde_basin_boundary.*` if you export it
+2. `figure_01_basin_overview.png` (annotated screenshot map with basin outline)
+3. `figure_02_conceptual_model_planview.png` (your conceptual diagram)
+4. `figure_03_conceptual_model_xsection.png` (your conceptual cross-section)
+5. `upper-verde_conceptual-model-memo.md` (1–2 pages)
+
+---
+
+# Daily plan (2–3 hrs/day)
+
+## Day 1 — Delineate the basin + collect the “minimum defensible dataset”
+
+### 1) Delineate a watershed in StreamStats
+Go to the **USGS StreamStats Arizona application** :contentReference[oaicite:4]{index=4}
+
+Do the following:
+
+- Use the map interface to select a point on the **Upper Verde River network**.
+  - Choose a point that makes sense as a “project point” (e.g., upstream of a confluence, near a town crossing, or another recognizable location).
+- Run **Delineate** to generate the basin boundary.
+- Export:
+  - Basin boundary (shapefile/geojson if available), OR at minimum a screenshot with the boundary visible
+  - Basin characteristics report (download or print-to-PDF)
+
+**Deliverable:** Save into `curriculum/week-01-deliverables/`:
+- `upper-verde_streamstats_report.pdf`
+- `figure_01_basin_overview.png` (screenshot of delineated basin + point)
+
+### 2) Extract the “minimum dataset” from StreamStats outputs
+From the StreamStats report, capture (copy into notes):
+- Drainage area
+- Mean basin elevation / relief (if available)
+- Slope metrics
+- Any climate/precipitation indices StreamStats provides
+- Any flow statistics (peak/low flow estimates) if available in AZ StreamStats
+
+> StreamStats provides GIS-derived basin characteristics and flow statistics in many regions; document exactly what it gives you for your point. :contentReference[oaicite:5]{index=5}
+
+### 3) Make a 1-paragraph basin description
+Write a short description (5–8 sentences) summarizing:
+- Basin location / setting
+- General hydroclimate (arid SW)
+- What StreamStats says about size, elevation, slope
+- Why this is a groundwater-relevant basin (hypothesis to test later)
+
+---
+
+## Day 2 — Build a defensible recharge-zone map (no “guessing”)
+
+You will map **recharge likelihood zones** using proxy evidence.
+
+### Inputs (choose at least two)
+Use StreamStats + one or more of:
+- Hillshade / DEM view (web map or GIS)
+- Geologic map screenshot (state or USGS)
+- Soils / land cover view (optional)
+
+### How to classify recharge zones (rules you must apply)
+Create 3–5 “recharge likelihood” classes and justify them:
+
+**A. Mountain blocks / high elevation zones**
+- Hypothesis: higher precip, runoff generation → potential mountain-front recharge (MFR)
+- Note uncertainty: fractured bedrock can transmit recharge, but spatially variable
+
+**B. Alluvial fans / basin-fill margins**
+- Hypothesis: coarse sediments + focused runoff infiltration → higher recharge potential
+
+**C. Ephemeral channel corridors**
+- Hypothesis: focused infiltration during stormflow; losing reaches likely in coarse alluvium
+
+**D. Basin floor fine sediments / high ET zones**
+- Hypothesis: generally low diffuse recharge; high evaporative demand
+
+### Deliverable
+Create `figure_02_conceptual_model_planview.png`:
+- Start with your basin overview (Day 1)
+- Add labeled polygons/regions for recharge likelihood classes
+- Add 5–10 annotation callouts (“Why this is likely a recharge zone”)
+
+Also create a short table in your notes:
+
+| Recharge zone | Evidence used | Why plausible | Biggest uncertainty |
+|---|---|---|---|
+
+---
+
+## Day 3 — Infer groundwater flow directions + discharge zones (with explicit logic)
+
+### 1) Flow directions (what you must do)
+Sketch a **potentiometric surface hypothesis** using:
+
+- Topographic gradients as first-order control (mountains → valley)
+- Stream corridor as potential discharge zone (baseflow/springs) or losing zone (episodic infiltration)
+- Pumping centers (if you can identify municipal/ag regions from public info; if not, note as “unknown”)
+
+You are not claiming truth — you are constructing a **defensible first-pass hypothesis**.
+
+### 2) Discharge zones (identify at least 2 types)
+Common arid/SW discharge mechanisms:
+- Spring discharge / baseflow to the river
+- Pumping (anthropogenic discharge)
+- Riparian ET (phreatophytes) where shallow water table exists
+
+### Deliverable
+Create `figure_03_conceptual_model_xsection.png`:
+- Cross-section from highlands → basin fill → river corridor
+- Include:
+  - Hydrostratigraphy (bedrock vs basin fill)
+  - Water table shape (conceptual)
+  - Recharge arrows (by zone)
+  - Discharge arrows (river/baseflow, ET, wells)
+  - A note identifying “unknowns” (e.g., depth to bedrock, K contrasts)
+
+Write 8–12 bullets answering:
+- “If challenged, what evidence supports my flow direction arrows?”
+
+---
+
+## Day 4 — Data constraints + “defensibility audit”
+
+Make a table (this is a consulting staple):
+
+| Unknown / data gap | Why it matters | How it could change conclusions | What proxy you used |
+|---|---|---|---|
+
+Examples of typical arid-basin constraints:
+- Sparse head observations (few wells)
+- Poorly constrained hydraulic conductivity zonation
+- Recharge magnitude & timing unknown
+- Stream–aquifer interaction unknown (losing vs gaining varies)
+- Pumping time series unknown
+
+Then write two lists:
+
+**Most defensible assumptions (5–8)**  
+**Most vulnerable assumptions (5–8)**
+
+Finally, write 3 “challenge questions” someone could ask in a review:
+- “How do you know recharge is focused there?”
+- “Why is that boundary no-flow?”
+- “What evidence supports gaining vs losing reaches?”
+
+---
+
+## Day 5 — Write the conceptual model memo (portfolio piece)
+
+Create `upper-verde_conceptual-model-memo.md`_

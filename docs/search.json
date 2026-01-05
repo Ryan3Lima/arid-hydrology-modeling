@@ -32,35 +32,245 @@
     "href": "index.html#structure",
     "title": "Hydrologic Modeling in Arid Systems",
     "section": "Structure",
-    "text": "Structure\nThe curriculum is organized into four weeks, each combining: - Conceptual grounding - Hands-on modeling - Uncertainty analysis - Professional communication"
+    "text": "Structure\nThe curriculum is organized into four weeks, each combining:\n\nConceptual grounding\nHands-on modeling\nUncertainty analysis\nProfessional communication"
   },
   {
     "objectID": "curriculum/week-01-concepts.html",
     "href": "curriculum/week-01-concepts.html",
-    "title": "Week 1 – Conceptual Models & Arid Hydrology",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
     "section": "",
-    "text": "Understand groundwater flow in arid systems\nIdentify dominant recharge mechanisms\nDevelop defensible conceptual models under data scarcity"
+    "text": "By the end of Week 1, you will be able to:\n\nDelineate a real basin using USGS StreamStats and extract basin characteristics\nBuild a defensible conceptual groundwater model for an arid/SW basin using proxy evidence\nIdentify likely recharge zones, flow directions, and discharge zones (with justification)\nWrite a short assumptions + uncertainty memo in a consulting style"
   },
   {
-    "objectID": "curriculum/week-01-concepts.html#objectives",
-    "href": "curriculum/week-01-concepts.html#objectives",
-    "title": "Week 1 – Conceptual Models & Arid Hydrology",
+    "objectID": "curriculum/week-01-concepts.html#week-goals",
+    "href": "curriculum/week-01-concepts.html#week-goals",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
     "section": "",
-    "text": "Understand groundwater flow in arid systems\nIdentify dominant recharge mechanisms\nDevelop defensible conceptual models under data scarcity"
+    "text": "By the end of Week 1, you will be able to:\n\nDelineate a real basin using USGS StreamStats and extract basin characteristics\nBuild a defensible conceptual groundwater model for an arid/SW basin using proxy evidence\nIdentify likely recharge zones, flow directions, and discharge zones (with justification)\nWrite a short assumptions + uncertainty memo in a consulting style"
   },
   {
-    "objectID": "curriculum/week-01-concepts.html#key-themes",
-    "href": "curriculum/week-01-concepts.html#key-themes",
-    "title": "Week 1 – Conceptual Models & Arid Hydrology",
-    "section": "Key Themes",
-    "text": "Key Themes\n\nConceptual uncertainty &gt; parameter uncertainty\nRecharge as an inferred quantity\nBasin-scale thinking"
+    "objectID": "curriculum/week-01-concepts.html#case-study-basin",
+    "href": "curriculum/week-01-concepts.html#case-study-basin",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
+    "section": "Case study basin",
+    "text": "Case study basin\nUpper Verde River (HUC8: 15060202) :contentReferenceoaicite:2\nWhy this basin works for learning: - Arizona-relevant hydroclimate and mixed mountain/basin settings - Strong groundwater–surface water interactions (springs/baseflow on parts of the Verde) - Plenty of public context, but still “real-world messy” in terms of uncertainty"
   },
   {
-    "objectID": "curriculum/week-01-concepts.html#exercises",
-    "href": "curriculum/week-01-concepts.html#exercises",
-    "title": "Week 1 – Conceptual Models & Arid Hydrology",
-    "section": "Exercises",
-    "text": "Exercises\n\nSketch a conceptual groundwater model for an arid basin\nIdentify recharge pathways and uncertainties\nWrite a 1–2 page conceptual model memo"
+    "objectID": "curriculum/week-01-concepts.html#tools-you-will-use-this-week",
+    "href": "curriculum/week-01-concepts.html#tools-you-will-use-this-week",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
+    "section": "Tools you will use this week",
+    "text": "Tools you will use this week\n\nUSGS StreamStats (Arizona application) for basin delineation + basin characteristics :contentReferenceoaicite:3\nA basemap viewer (web) and/or GIS (optional) for hillshade/geology screenshots\nYour notes (markdown or a dedicated week-01-notes.md)\n\n\nYou do not need to build a numerical model yet. The job skill this week is: turning incomplete evidence into explicit, defensible assumptions."
+  },
+  {
+    "objectID": "curriculum/week-01-concepts.html#deliverables-you-will-publish-these-to-your-repo",
+    "href": "curriculum/week-01-concepts.html#deliverables-you-will-publish-these-to-your-repo",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
+    "section": "Deliverables (you will publish these to your repo)",
+    "text": "Deliverables (you will publish these to your repo)\nCreate a folder: curriculum/week-01-deliverables/\nBy the end of the week, commit:\n\nupper-verde_streamstats_report.pdf (or HTML print) + upper-verde_basin_boundary.* if you export it\nfigure_01_basin_overview.png (annotated screenshot map with basin outline)\nfigure_02_conceptual_model_planview.png (your conceptual diagram)\nfigure_03_conceptual_model_xsection.png (your conceptual cross-section)\nupper-verde_conceptual-model-memo.md (1–2 pages)"
+  },
+  {
+    "objectID": "curriculum/week-01-concepts.html#day-1-delineate-the-basin-collect-the-minimum-defensible-dataset",
+    "href": "curriculum/week-01-concepts.html#day-1-delineate-the-basin-collect-the-minimum-defensible-dataset",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
+    "section": "Day 1 — Delineate the basin + collect the “minimum defensible dataset”",
+    "text": "Day 1 — Delineate the basin + collect the “minimum defensible dataset”\n\n1) Delineate a watershed in StreamStats\nGo to the USGS StreamStats Arizona application :contentReferenceoaicite:4\nDo the following:\n\nUse the map interface to select a point on the Upper Verde River network.\n\nChoose a point that makes sense as a “project point” (e.g., upstream of a confluence, near a town crossing, or another recognizable location).\n\nRun Delineate to generate the basin boundary.\nExport:\n\nBasin boundary (shapefile/geojson if available), OR at minimum a screenshot with the boundary visible\nBasin characteristics report (download or print-to-PDF)\n\n\nDeliverable: Save into curriculum/week-01-deliverables/: - upper-verde_streamstats_report.pdf - figure_01_basin_overview.png (screenshot of delineated basin + point)\n\n\n2) Extract the “minimum dataset” from StreamStats outputs\nFrom the StreamStats report, capture (copy into notes): - Drainage area - Mean basin elevation / relief (if available) - Slope metrics - Any climate/precipitation indices StreamStats provides - Any flow statistics (peak/low flow estimates) if available in AZ StreamStats\n\nStreamStats provides GIS-derived basin characteristics and flow statistics in many regions; document exactly what it gives you for your point. :contentReferenceoaicite:5\n\n\n\n3) Make a 1-paragraph basin description\nWrite a short description (5–8 sentences) summarizing: - Basin location / setting - General hydroclimate (arid SW) - What StreamStats says about size, elevation, slope - Why this is a groundwater-relevant basin (hypothesis to test later)"
+  },
+  {
+    "objectID": "curriculum/week-01-concepts.html#day-2-build-a-defensible-recharge-zone-map-no-guessing",
+    "href": "curriculum/week-01-concepts.html#day-2-build-a-defensible-recharge-zone-map-no-guessing",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
+    "section": "Day 2 — Build a defensible recharge-zone map (no “guessing”)",
+    "text": "Day 2 — Build a defensible recharge-zone map (no “guessing”)\nYou will map recharge likelihood zones using proxy evidence.\n\nInputs (choose at least two)\nUse StreamStats + one or more of: - Hillshade / DEM view (web map or GIS) - Geologic map screenshot (state or USGS) - Soils / land cover view (optional)\n\n\nHow to classify recharge zones (rules you must apply)\nCreate 3–5 “recharge likelihood” classes and justify them:\nA. Mountain blocks / high elevation zones - Hypothesis: higher precip, runoff generation → potential mountain-front recharge (MFR) - Note uncertainty: fractured bedrock can transmit recharge, but spatially variable\nB. Alluvial fans / basin-fill margins - Hypothesis: coarse sediments + focused runoff infiltration → higher recharge potential\nC. Ephemeral channel corridors - Hypothesis: focused infiltration during stormflow; losing reaches likely in coarse alluvium\nD. Basin floor fine sediments / high ET zones - Hypothesis: generally low diffuse recharge; high evaporative demand\n\n\nDeliverable\nCreate figure_02_conceptual_model_planview.png: - Start with your basin overview (Day 1) - Add labeled polygons/regions for recharge likelihood classes - Add 5–10 annotation callouts (“Why this is likely a recharge zone”)\nAlso create a short table in your notes:\n\n\n\nRecharge zone\nEvidence used\nWhy plausible\nBiggest uncertainty"
+  },
+  {
+    "objectID": "curriculum/week-01-concepts.html#day-3-infer-groundwater-flow-directions-discharge-zones-with-explicit-logic",
+    "href": "curriculum/week-01-concepts.html#day-3-infer-groundwater-flow-directions-discharge-zones-with-explicit-logic",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
+    "section": "Day 3 — Infer groundwater flow directions + discharge zones (with explicit logic)",
+    "text": "Day 3 — Infer groundwater flow directions + discharge zones (with explicit logic)\n\n1) Flow directions (what you must do)\nSketch a potentiometric surface hypothesis using:\n\nTopographic gradients as first-order control (mountains → valley)\nStream corridor as potential discharge zone (baseflow/springs) or losing zone (episodic infiltration)\nPumping centers (if you can identify municipal/ag regions from public info; if not, note as “unknown”)\n\nYou are not claiming truth — you are constructing a defensible first-pass hypothesis.\n\n\n2) Discharge zones (identify at least 2 types)\nCommon arid/SW discharge mechanisms: - Spring discharge / baseflow to the river - Pumping (anthropogenic discharge) - Riparian ET (phreatophytes) where shallow water table exists\n\n\nDeliverable\nCreate figure_03_conceptual_model_xsection.png: - Cross-section from highlands → basin fill → river corridor - Include: - Hydrostratigraphy (bedrock vs basin fill) - Water table shape (conceptual) - Recharge arrows (by zone) - Discharge arrows (river/baseflow, ET, wells) - A note identifying “unknowns” (e.g., depth to bedrock, K contrasts)\nWrite 8–12 bullets answering: - “If challenged, what evidence supports my flow direction arrows?”"
+  },
+  {
+    "objectID": "curriculum/week-01-concepts.html#day-4-data-constraints-defensibility-audit",
+    "href": "curriculum/week-01-concepts.html#day-4-data-constraints-defensibility-audit",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
+    "section": "Day 4 — Data constraints + “defensibility audit”",
+    "text": "Day 4 — Data constraints + “defensibility audit”\nMake a table (this is a consulting staple):\n\n\n\n\n\n\n\n\n\nUnknown / data gap\nWhy it matters\nHow it could change conclusions\nWhat proxy you used\n\n\n\n\n\nExamples of typical arid-basin constraints: - Sparse head observations (few wells) - Poorly constrained hydraulic conductivity zonation - Recharge magnitude & timing unknown - Stream–aquifer interaction unknown (losing vs gaining varies) - Pumping time series unknown\nThen write two lists:\nMost defensible assumptions (5–8)\nMost vulnerable assumptions (5–8)\nFinally, write 3 “challenge questions” someone could ask in a review: - “How do you know recharge is focused there?” - “Why is that boundary no-flow?” - “What evidence supports gaining vs losing reaches?”"
+  },
+  {
+    "objectID": "curriculum/week-01-concepts.html#day-5-write-the-conceptual-model-memo-portfolio-piece",
+    "href": "curriculum/week-01-concepts.html#day-5-write-the-conceptual-model-memo-portfolio-piece",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
+    "section": "Day 5 — Write the conceptual model memo (portfolio piece)",
+    "text": "Day 5 — Write the conceptual model memo (portfolio piece)\nCreate upper-verde_conceptual-model-memo.md_"
+  },
+  {
+    "objectID": "curriculum/glossary.html",
+    "href": "curriculum/glossary.html",
+    "title": "Glossary",
+    "section": "",
+    "text": "A geological formation that can store, transmit, and yield usable quantities of groundwater.\nAn aquifer is the part of the subsurface that actually allows groundwater to move. Its ability to transmit water depends on properties such as grain size, sorting, fracture density, and connectivity. In groundwater modeling, aquifers are often simplified into layers with representative hydraulic properties, even though real aquifers are heterogeneous."
+  },
+  {
+    "objectID": "curriculum/glossary.html#aquifer",
+    "href": "curriculum/glossary.html#aquifer",
+    "title": "Glossary",
+    "section": "",
+    "text": "A geological formation that can store, transmit, and yield usable quantities of groundwater.\nAn aquifer is the part of the subsurface that actually allows groundwater to move. Its ability to transmit water depends on properties such as grain size, sorting, fracture density, and connectivity. In groundwater modeling, aquifers are often simplified into layers with representative hydraulic properties, even though real aquifers are heterogeneous."
+  },
+  {
+    "objectID": "curriculum/glossary.html#hydraulic-head-h",
+    "href": "curriculum/glossary.html#hydraulic-head-h",
+    "title": "Glossary",
+    "section": "Hydraulic Head (h)",
+    "text": "Hydraulic Head (h)\nThe energy level of groundwater at a point, commonly measured as the height to which water rises in a well.\nHydraulic head combines elevation and pressure and represents the “push” that drives groundwater flow. Groundwater always flows from locations of higher head to lower head. Head is the primary unknown solved for in most groundwater flow models."
+  },
+  {
+    "objectID": "curriculum/glossary.html#external-head-h",
+    "href": "curriculum/glossary.html#external-head-h",
+    "title": "Glossary",
+    "section": "External Head (H)",
+    "text": "External Head (H)\nThe water level of a surface water body or boundary that interacts with groundwater.\nExternal head represents the water level in a river, lake, drain, or reservoir adjacent to the aquifer. The difference between groundwater head and external head controls the direction and magnitude of exchange across a boundary."
+  },
+  {
+    "objectID": "curriculum/glossary.html#hydraulic-conductivity-k",
+    "href": "curriculum/glossary.html#hydraulic-conductivity-k",
+    "title": "Glossary",
+    "section": "Hydraulic Conductivity (K)",
+    "text": "Hydraulic Conductivity (K)\nA measure of how easily water can move through a geologic material.\nHydraulic conductivity depends on both the properties of the fluid (water) and the porous medium. Coarse sands and gravels have high hydraulic conductivity, while clays and unfractured bedrock have low hydraulic conductivity. In equations, higher K means more flow for the same hydraulic gradient."
+  },
+  {
+    "objectID": "curriculum/glossary.html#darcys-law",
+    "href": "curriculum/glossary.html#darcys-law",
+    "title": "Glossary",
+    "section": "Darcy’s Law",
+    "text": "Darcy’s Law\nThe fundamental physical law describing groundwater flow through porous media.\nIn one dimension, Darcy’s Law is commonly written as:\n\\[\nq = -K \\frac{dh}{dx}\n\\]\nThis equation states that groundwater flux increases with hydraulic conductivity and with the steepness of the hydraulic gradient. The negative sign indicates that flow occurs in the direction of decreasing head."
+  },
+  {
+    "objectID": "curriculum/glossary.html#hydraulic-gradient-dhdx",
+    "href": "curriculum/glossary.html#hydraulic-gradient-dhdx",
+    "title": "Glossary",
+    "section": "Hydraulic Gradient (dh/dx)",
+    "text": "Hydraulic Gradient (dh/dx)\nThe rate of change of hydraulic head with distance.\nThe hydraulic gradient represents the slope of the groundwater surface. Steeper gradients produce stronger driving forces for groundwater flow. In conceptual models, gradients are often inferred from topography or sparse water-level data."
+  },
+  {
+    "objectID": "curriculum/glossary.html#flux-q",
+    "href": "curriculum/glossary.html#flux-q",
+    "title": "Glossary",
+    "section": "Flux (q)",
+    "text": "Flux (q)\nThe rate of groundwater flow per unit area (or per unit width in one-dimensional models).\nFlux describes how much water is moving through the aquifer at a location. Positive or negative flux indicates flow direction, depending on the sign convention used. Flux is a key quantity for estimating exchanges between groundwater and surface water."
+  },
+  {
+    "objectID": "curriculum/glossary.html#recharge-r",
+    "href": "curriculum/glossary.html#recharge-r",
+    "title": "Glossary",
+    "section": "Recharge (R)",
+    "text": "Recharge (R)\nWater added to the groundwater system from above.\nRecharge can occur through precipitation infiltration, focused infiltration in ephemeral channels, irrigation return flow, or mountain-front recharge. Recharge is often spatially variable and difficult to measure directly, especially in arid environments. In groundwater equations, recharge acts as a source term."
+  },
+  {
+    "objectID": "curriculum/glossary.html#steady-state",
+    "href": "curriculum/glossary.html#steady-state",
+    "title": "Glossary",
+    "section": "Steady State",
+    "text": "Steady State\nA modeling condition in which groundwater heads do not change with time.\nAt steady state, inflows (such as recharge) exactly balance outflows (such as discharge to streams or pumping). Steady-state models represent long-term average conditions rather than short-term fluctuations."
+  },
+  {
+    "objectID": "curriculum/glossary.html#one-dimensional-flow",
+    "href": "curriculum/glossary.html#one-dimensional-flow",
+    "title": "Glossary",
+    "section": "One-Dimensional Flow",
+    "text": "One-Dimensional Flow\nA simplification in which groundwater flow is assumed to occur in only one spatial direction.\nOne-dimensional flow is commonly used for teaching and conceptual analysis. While real groundwater flow is three-dimensional, one-dimensional models highlight the key physical controls without added complexity."
+  },
+  {
+    "objectID": "curriculum/glossary.html#unconfined-aquifer",
+    "href": "curriculum/glossary.html#unconfined-aquifer",
+    "title": "Glossary",
+    "section": "Unconfined Aquifer",
+    "text": "Unconfined Aquifer\nAn aquifer in which the upper boundary is the water table.\nIn an unconfined aquifer, the saturated thickness changes as the water table rises or falls. This makes groundwater flow behavior nonlinear, because the amount of water that can flow depends on head as well as gradient."
+  },
+  {
+    "objectID": "curriculum/glossary.html#saturated-thickness",
+    "href": "curriculum/glossary.html#saturated-thickness",
+    "title": "Glossary",
+    "section": "Saturated Thickness",
+    "text": "Saturated Thickness\nThe vertical thickness of the aquifer that is filled with water.\nIn unconfined systems, saturated thickness is approximately equal to the hydraulic head above an impermeable base. Thicker saturated zones can transmit more groundwater flow than thinner zones."
+  },
+  {
+    "objectID": "curriculum/glossary.html#conservation-of-mass",
+    "href": "curriculum/glossary.html#conservation-of-mass",
+    "title": "Glossary",
+    "section": "Conservation of Mass",
+    "text": "Conservation of Mass\nThe principle that water cannot be created or destroyed within a system.\nIn groundwater modeling, conservation of mass means that any water entering a control volume must either leave it or be stored. All groundwater flow equations are derived from this principle."
+  },
+  {
+    "objectID": "curriculum/glossary.html#groundwater-flow-equation-one-dimensional-no-recharge",
+    "href": "curriculum/glossary.html#groundwater-flow-equation-one-dimensional-no-recharge",
+    "title": "Glossary",
+    "section": "Groundwater Flow Equation (One-Dimensional, No Recharge)",
+    "text": "Groundwater Flow Equation (One-Dimensional, No Recharge)\n\\[\n\\frac{d}{dx}\\left(K \\frac{dh}{dx}\\right) = 0\n\\]\nThis equation states that groundwater flow is constant along the aquifer when there are no sources or sinks. Physically, it represents redistribution of groundwater driven only by differences in head."
+  },
+  {
+    "objectID": "curriculum/glossary.html#groundwater-flow-equation-one-dimensional-unconfined-with-recharge",
+    "href": "curriculum/glossary.html#groundwater-flow-equation-one-dimensional-unconfined-with-recharge",
+    "title": "Glossary",
+    "section": "Groundwater Flow Equation (One-Dimensional, Unconfined, With Recharge)",
+    "text": "Groundwater Flow Equation (One-Dimensional, Unconfined, With Recharge)\n\\[\n\\frac{d}{dx}\\left(-hK\\frac{dh}{dx}\\right) = R\n\\]\nThis equation expresses that changes in groundwater flow along the aquifer balance recharge added from above. The inclusion of head inside the derivative accounts for the changing saturated thickness in unconfined aquifers."
+  },
+  {
+    "objectID": "curriculum/glossary.html#boundary-condition",
+    "href": "curriculum/glossary.html#boundary-condition",
+    "title": "Glossary",
+    "section": "Boundary Condition",
+    "text": "Boundary Condition\nA mathematical description of how groundwater behaves at the edge of a model domain.\nBoundary conditions define whether water can enter or leave the system and under what rules. They strongly influence model results and must be chosen carefully to reflect physical reality."
+  },
+  {
+    "objectID": "curriculum/glossary.html#type-i-boundary-condition-fixed-head",
+    "href": "curriculum/glossary.html#type-i-boundary-condition-fixed-head",
+    "title": "Glossary",
+    "section": "Type I Boundary Condition (Fixed Head)",
+    "text": "Type I Boundary Condition (Fixed Head)\nA boundary where hydraulic head is held constant.\nFixed-head boundaries represent large water bodies or regional controls that do not change in response to groundwater flow, such as oceans or large lakes."
+  },
+  {
+    "objectID": "curriculum/glossary.html#type-ii-boundary-condition-fixed-flux",
+    "href": "curriculum/glossary.html#type-ii-boundary-condition-fixed-flux",
+    "title": "Glossary",
+    "section": "Type II Boundary Condition (Fixed Flux)",
+    "text": "Type II Boundary Condition (Fixed Flux)\nA boundary where the amount of water entering or leaving the system is specified.\nFixed-flux boundaries are commonly used to represent recharge, pumping, or specified inflows and outflows."
+  },
+  {
+    "objectID": "curriculum/glossary.html#type-iii-boundary-condition-head-dependent-flux-robin-condition",
+    "href": "curriculum/glossary.html#type-iii-boundary-condition-head-dependent-flux-robin-condition",
+    "title": "Glossary",
+    "section": "Type III Boundary Condition (Head-Dependent Flux, Robin Condition)",
+    "text": "Type III Boundary Condition (Head-Dependent Flux, Robin Condition)\nA boundary where the flux depends on the difference between groundwater head and an external head.\nThis type of boundary is described by:\n\\[\nq = C (h - H)\n\\]\nIt represents a leaky connection, such as a riverbed separating groundwater from surface water. Flow reverses direction depending on whether groundwater head is higher or lower than the external water level."
+  },
+  {
+    "objectID": "curriculum/glossary.html#conductance-c",
+    "href": "curriculum/glossary.html#conductance-c",
+    "title": "Glossary",
+    "section": "Conductance (C)",
+    "text": "Conductance (C)\nA parameter describing how easily water can cross a boundary interface.\nConductance depends on the permeability, thickness, and area of the interface (such as a riverbed). Higher conductance means stronger hydraulic connection between groundwater and surface water."
+  },
+  {
+    "objectID": "curriculum/glossary.html#gaining-stream",
+    "href": "curriculum/glossary.html#gaining-stream",
+    "title": "Glossary",
+    "section": "Gaining Stream",
+    "text": "Gaining Stream\nA stream reach that receives water from the groundwater system.\nIn a gaining stream, groundwater head is higher than the stream water level, causing groundwater to discharge into the stream."
+  },
+  {
+    "objectID": "curriculum/glossary.html#losing-stream",
+    "href": "curriculum/glossary.html#losing-stream",
+    "title": "Glossary",
+    "section": "Losing Stream",
+    "text": "Losing Stream\nA stream reach that leaks water into the groundwater system.\nIn a losing stream, the stream water level is higher than the groundwater head, allowing surface water to recharge the aquifer."
+  },
+  {
+    "objectID": "curriculum/glossary.html#qh-relationship-dischargehead-relationship",
+    "href": "curriculum/glossary.html#qh-relationship-dischargehead-relationship",
+    "title": "Glossary",
+    "section": "Q–h Relationship (Discharge–Head Relationship)",
+    "text": "Q–h Relationship (Discharge–Head Relationship)\nThe functional relationship between groundwater discharge and hydraulic head.\nThis relationship is often plotted to show how flux across a boundary changes as groundwater levels rise or fall. It is especially useful for understanding head-dependent boundaries."
   },
   {
     "objectID": "about.html",

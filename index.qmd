@@ -33,6 +33,7 @@ defend modeling assumptions**, consistent with real-world consulting practice.
 ## Structure
 
 The curriculum is organized into four weeks, each combining:
+
 - Conceptual grounding
 - Hands-on modeling
 - Uncertainty analysis

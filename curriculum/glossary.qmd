@@ -1,0 +1,185 @@
+---
+title: "Glossary"
+---
+
+
+## Aquifer
+
+A geological formation that can store, transmit, and yield usable quantities of groundwater.
+
+An aquifer is the part of the subsurface that actually allows groundwater to move. Its ability to transmit water depends on properties such as grain size, sorting, fracture density, and connectivity. In groundwater modeling, aquifers are often simplified into layers with representative hydraulic properties, even though real aquifers are heterogeneous.
+
+
+## Hydraulic Head (h)
+
+The energy level of groundwater at a point, commonly measured as the height to which water rises in a well.
+
+Hydraulic head combines elevation and pressure and represents the “push” that drives groundwater flow. Groundwater always flows from locations of higher head to lower head. Head is the primary unknown solved for in most groundwater flow models.
+
+
+
+## External Head (H)
+
+The water level of a surface water body or boundary that interacts with groundwater.
+
+External head represents the water level in a river, lake, drain, or reservoir adjacent to the aquifer. The difference between groundwater head and external head controls the direction and magnitude of exchange across a boundary.
+
+
+## Hydraulic Conductivity (K)
+
+A measure of how easily water can move through a geologic material.
+
+Hydraulic conductivity depends on both the properties of the fluid (water) and the porous medium. Coarse sands and gravels have high hydraulic conductivity, while clays and unfractured bedrock have low hydraulic conductivity. In equations, higher K means more flow for the same hydraulic gradient.
+
+## Darcy’s Law
+
+The fundamental physical law describing groundwater flow through porous media.
+
+In one dimension, Darcy’s Law is commonly written as:
+
+$$
+q = -K \frac{dh}{dx}
+$$
+
+This equation states that groundwater flux increases with hydraulic conductivity and with the steepness of the hydraulic gradient. The negative sign indicates that flow occurs in the direction of decreasing head.
+
+
+## Hydraulic Gradient (dh/dx)
+
+The rate of change of hydraulic head with distance.
+
+The hydraulic gradient represents the slope of the groundwater surface. Steeper gradients produce stronger driving forces for groundwater flow. In conceptual models, gradients are often inferred from topography or sparse water-level data.
+
+
+## Flux (q)
+
+The rate of groundwater flow per unit area (or per unit width in one-dimensional models).
+
+Flux describes how much water is moving through the aquifer at a location. Positive or negative flux indicates flow direction, depending on the sign convention used. Flux is a key quantity for estimating exchanges between groundwater and surface water.
+
+
+## Recharge (R)
+
+Water added to the groundwater system from above.
+
+Recharge can occur through precipitation infiltration, focused infiltration in ephemeral channels, irrigation return flow, or mountain-front recharge. Recharge is often spatially variable and difficult to measure directly, especially in arid environments. In groundwater equations, recharge acts as a source term.
+
+
+## Steady State
+
+A modeling condition in which groundwater heads do not change with time.
+
+At steady state, inflows (such as recharge) exactly balance outflows (such as discharge to streams or pumping). Steady-state models represent long-term average conditions rather than short-term fluctuations.
+
+
+## One-Dimensional Flow
+
+A simplification in which groundwater flow is assumed to occur in only one spatial direction.
+
+One-dimensional flow is commonly used for teaching and conceptual analysis. While real groundwater flow is three-dimensional, one-dimensional models highlight the key physical controls without added complexity.
+
+
+## Unconfined Aquifer
+
+An aquifer in which the upper boundary is the water table.
+
+In an unconfined aquifer, the saturated thickness changes as the water table rises or falls. This makes groundwater flow behavior nonlinear, because the amount of water that can flow depends on head as well as gradient.
+
+
+## Saturated Thickness
+
+The vertical thickness of the aquifer that is filled with water.
+
+In unconfined systems, saturated thickness is approximately equal to the hydraulic head above an impermeable base. Thicker saturated zones can transmit more groundwater flow than thinner zones.
+
+
+## Conservation of Mass
+
+The principle that water cannot be created or destroyed within a system.
+
+In groundwater modeling, conservation of mass means that any water entering a control volume must either leave it or be stored. All groundwater flow equations are derived from this principle.
+
+
+## Groundwater Flow Equation (One-Dimensional, No Recharge)
+
+$$
+\frac{d}{dx}\left(K \frac{dh}{dx}\right) = 0
+$$
+
+This equation states that groundwater flow is constant along the aquifer when there are no sources or sinks. Physically, it represents redistribution of groundwater driven only by differences in head.
+
+
+## Groundwater Flow Equation (One-Dimensional, Unconfined, With Recharge)
+
+$$
+\frac{d}{dx}\left(-hK\frac{dh}{dx}\right) = R
+$$
+
+This equation expresses that changes in groundwater flow along the aquifer balance recharge added from above. The inclusion of head inside the derivative accounts for the changing saturated thickness in unconfined aquifers.
+
+
+## Boundary Condition
+
+A mathematical description of how groundwater behaves at the edge of a model domain.
+
+Boundary conditions define whether water can enter or leave the system and under what rules. They strongly influence model results and must be chosen carefully to reflect physical reality.
+
+
+## Type I Boundary Condition (Fixed Head)
+
+A boundary where hydraulic head is held constant.
+
+Fixed-head boundaries represent large water bodies or regional controls that do not change in response to groundwater flow, such as oceans or large lakes.
+
+
+## Type II Boundary Condition (Fixed Flux)
+
+A boundary where the amount of water entering or leaving the system is specified.
+
+Fixed-flux boundaries are commonly used to represent recharge, pumping, or specified inflows and outflows.
+
+
+## Type III Boundary Condition (Head-Dependent Flux, Robin Condition)
+
+A boundary where the flux depends on the difference between groundwater head and an external head.
+
+This type of boundary is described by:
+
+$$
+q = C (h - H)
+$$
+
+It represents a leaky connection, such as a riverbed separating groundwater from surface water. Flow reverses direction depending on whether groundwater head is higher or lower than the external water level.
+
+---
+
+## Conductance (C)
+
+A parameter describing how easily water can cross a boundary interface.
+
+Conductance depends on the permeability, thickness, and area of the interface (such as a riverbed). Higher conductance means stronger hydraulic connection between groundwater and surface water.
+
+
+
+## Gaining Stream
+
+A stream reach that receives water from the groundwater system.
+
+In a gaining stream, groundwater head is higher than the stream water level, causing groundwater to discharge into the stream.
+
+
+
+## Losing Stream
+
+A stream reach that leaks water into the groundwater system.
+
+In a losing stream, the stream water level is higher than the groundwater head, allowing surface water to recharge the aquifer.
+
+
+## Q–h Relationship (Discharge–Head Relationship)
+
+The functional relationship between groundwater discharge and hydraulic head.
+
+This relationship is often plotted to show how flux across a boundary changes as groundwater levels rise or fall. It is especially useful for understanding head-dependent boundaries.
+
+

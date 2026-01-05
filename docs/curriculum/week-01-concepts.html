@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Week 1 – Conceptual Models &amp; Arid Hydrology – Hydrologic Modeling in Arid Systems</title>
+<title>Week 1 – Conceptual Models &amp; Arid Hydrology (Arizona Case Study) – Hydrologic Modeling in Arid Systems</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,6 +108,14 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../curriculum/week-04-practice.html"> 
 <span class="menu-text">Practice</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../curriculum/glossary.html"> 
+<span class="menu-text">Glossary</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../curriculum/readings.html"> 
+<span class="menu-text">Readings</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -124,9 +132,33 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#objectives" id="toc-objectives" class="nav-link active" data-scroll-target="#objectives">Objectives</a></li>
-  <li><a href="#key-themes" id="toc-key-themes" class="nav-link" data-scroll-target="#key-themes">Key Themes</a></li>
-  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises">Exercises</a></li>
+  <li><a href="#week-goals" id="toc-week-goals" class="nav-link active" data-scroll-target="#week-goals">Week goals</a></li>
+  <li><a href="#case-study-basin" id="toc-case-study-basin" class="nav-link" data-scroll-target="#case-study-basin">Case study basin</a></li>
+  <li><a href="#tools-you-will-use-this-week" id="toc-tools-you-will-use-this-week" class="nav-link" data-scroll-target="#tools-you-will-use-this-week">Tools you will use this week</a></li>
+  <li><a href="#deliverables-you-will-publish-these-to-your-repo" id="toc-deliverables-you-will-publish-these-to-your-repo" class="nav-link" data-scroll-target="#deliverables-you-will-publish-these-to-your-repo">Deliverables (you will publish these to your repo)</a></li>
+  <li><a href="#daily-plan-23-hrsday" id="toc-daily-plan-23-hrsday" class="nav-link" data-scroll-target="#daily-plan-23-hrsday">Daily plan (2–3 hrs/day)</a>
+  <ul class="collapse">
+  <li><a href="#day-1-delineate-the-basin-collect-the-minimum-defensible-dataset" id="toc-day-1-delineate-the-basin-collect-the-minimum-defensible-dataset" class="nav-link" data-scroll-target="#day-1-delineate-the-basin-collect-the-minimum-defensible-dataset">Day 1 — Delineate the basin + collect the “minimum defensible dataset”</a>
+  <ul class="collapse">
+  <li><a href="#delineate-a-watershed-in-streamstats" id="toc-delineate-a-watershed-in-streamstats" class="nav-link" data-scroll-target="#delineate-a-watershed-in-streamstats">1) Delineate a watershed in StreamStats</a></li>
+  <li><a href="#extract-the-minimum-dataset-from-streamstats-outputs" id="toc-extract-the-minimum-dataset-from-streamstats-outputs" class="nav-link" data-scroll-target="#extract-the-minimum-dataset-from-streamstats-outputs">2) Extract the “minimum dataset” from StreamStats outputs</a></li>
+  <li><a href="#make-a-1-paragraph-basin-description" id="toc-make-a-1-paragraph-basin-description" class="nav-link" data-scroll-target="#make-a-1-paragraph-basin-description">3) Make a 1-paragraph basin description</a></li>
+  </ul></li>
+  <li><a href="#day-2-build-a-defensible-recharge-zone-map-no-guessing" id="toc-day-2-build-a-defensible-recharge-zone-map-no-guessing" class="nav-link" data-scroll-target="#day-2-build-a-defensible-recharge-zone-map-no-guessing">Day 2 — Build a defensible recharge-zone map (no “guessing”)</a>
+  <ul class="collapse">
+  <li><a href="#inputs-choose-at-least-two" id="toc-inputs-choose-at-least-two" class="nav-link" data-scroll-target="#inputs-choose-at-least-two">Inputs (choose at least two)</a></li>
+  <li><a href="#how-to-classify-recharge-zones-rules-you-must-apply" id="toc-how-to-classify-recharge-zones-rules-you-must-apply" class="nav-link" data-scroll-target="#how-to-classify-recharge-zones-rules-you-must-apply">How to classify recharge zones (rules you must apply)</a></li>
+  <li><a href="#deliverable" id="toc-deliverable" class="nav-link" data-scroll-target="#deliverable">Deliverable</a></li>
+  </ul></li>
+  <li><a href="#day-3-infer-groundwater-flow-directions-discharge-zones-with-explicit-logic" id="toc-day-3-infer-groundwater-flow-directions-discharge-zones-with-explicit-logic" class="nav-link" data-scroll-target="#day-3-infer-groundwater-flow-directions-discharge-zones-with-explicit-logic">Day 3 — Infer groundwater flow directions + discharge zones (with explicit logic)</a>
+  <ul class="collapse">
+  <li><a href="#flow-directions-what-you-must-do" id="toc-flow-directions-what-you-must-do" class="nav-link" data-scroll-target="#flow-directions-what-you-must-do">1) Flow directions (what you must do)</a></li>
+  <li><a href="#discharge-zones-identify-at-least-2-types" id="toc-discharge-zones-identify-at-least-2-types" class="nav-link" data-scroll-target="#discharge-zones-identify-at-least-2-types">2) Discharge zones (identify at least 2 types)</a></li>
+  <li><a href="#deliverable-1" id="toc-deliverable-1" class="nav-link" data-scroll-target="#deliverable-1">Deliverable</a></li>
+  </ul></li>
+  <li><a href="#day-4-data-constraints-defensibility-audit" id="toc-day-4-data-constraints-defensibility-audit" class="nav-link" data-scroll-target="#day-4-data-constraints-defensibility-audit">Day 4 — Data constraints + “defensibility audit”</a></li>
+  <li><a href="#day-5-write-the-conceptual-model-memo-portfolio-piece" id="toc-day-5-write-the-conceptual-model-memo-portfolio-piece" class="nav-link" data-scroll-target="#day-5-write-the-conceptual-model-memo-portfolio-piece">Day 5 — Write the conceptual model memo (portfolio piece)</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -135,7 +167,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Week 1 – Conceptual Models &amp; Arid Hydrology</h1>
+<h1 class="title">Week 1 – Conceptual Models &amp; Arid Hydrology (Arizona Case Study)</h1>
+<p class="subtitle lead">Upper Verde River (HUC8 15060202) — building defensible assumptions from public data</p>
 </div>
 
 
@@ -152,31 +185,174 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="objectives" class="level2">
-<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
+<section id="week-goals" class="level2">
+<h2 class="anchored" data-anchor-id="week-goals">Week goals</h2>
+<p>By the end of Week 1, you will be able to:</p>
 <ul>
-<li>Understand groundwater flow in arid systems</li>
-<li>Identify dominant recharge mechanisms</li>
-<li>Develop defensible conceptual models under data scarcity</li>
+<li>Delineate a real basin using <strong>USGS StreamStats</strong> and extract basin characteristics</li>
+<li>Build a <strong>defensible conceptual groundwater model</strong> for an arid/SW basin using proxy evidence</li>
+<li>Identify likely <strong>recharge zones</strong>, <strong>flow directions</strong>, and <strong>discharge zones</strong> (with justification)</li>
+<li>Write a short <strong>assumptions + uncertainty memo</strong> in a consulting style</li>
 </ul>
+<hr>
 </section>
-<section id="key-themes" class="level2">
-<h2 class="anchored" data-anchor-id="key-themes">Key Themes</h2>
+<section id="case-study-basin" class="level2">
+<h2 class="anchored" data-anchor-id="case-study-basin">Case study basin</h2>
+<p><strong>Upper Verde River (HUC8: 15060202)</strong> :contentReference<span data-index="2">oaicite:2</span></p>
+<p>Why this basin works for learning: - Arizona-relevant hydroclimate and mixed mountain/basin settings - Strong groundwater–surface water interactions (springs/baseflow on parts of the Verde) - Plenty of public context, but still “real-world messy” in terms of uncertainty</p>
+<hr>
+</section>
+<section id="tools-you-will-use-this-week" class="level2">
+<h2 class="anchored" data-anchor-id="tools-you-will-use-this-week">Tools you will use this week</h2>
 <ul>
-<li>Conceptual uncertainty &gt; parameter uncertainty</li>
-<li>Recharge as an inferred quantity</li>
-<li>Basin-scale thinking</li>
+<li><strong>USGS StreamStats (Arizona application)</strong> for basin delineation + basin characteristics :contentReference<span data-index="3">oaicite:3</span></li>
+<li>A basemap viewer (web) and/or GIS (optional) for hillshade/geology screenshots</li>
+<li>Your notes (markdown or a dedicated <code>week-01-notes.md</code>)</li>
 </ul>
+<blockquote class="blockquote">
+<p>You do not need to build a numerical model yet. The job skill this week is: turning incomplete evidence into explicit, defensible assumptions.</p>
+</blockquote>
+<hr>
 </section>
-<section id="exercises" class="level2">
-<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<section id="deliverables-you-will-publish-these-to-your-repo" class="level2">
+<h2 class="anchored" data-anchor-id="deliverables-you-will-publish-these-to-your-repo">Deliverables (you will publish these to your repo)</h2>
+<p>Create a folder: <code>curriculum/week-01-deliverables/</code></p>
+<p>By the end of the week, commit:</p>
 <ol type="1">
-<li>Sketch a conceptual groundwater model for an arid basin</li>
-<li>Identify recharge pathways and uncertainties</li>
-<li>Write a 1–2 page conceptual model memo</li>
+<li><code>upper-verde_streamstats_report.pdf</code> (or HTML print) + <code>upper-verde_basin_boundary.*</code> if you export it</li>
+<li><code>figure_01_basin_overview.png</code> (annotated screenshot map with basin outline)</li>
+<li><code>figure_02_conceptual_model_planview.png</code> (your conceptual diagram)</li>
+<li><code>figure_03_conceptual_model_xsection.png</code> (your conceptual cross-section)</li>
+<li><code>upper-verde_conceptual-model-memo.md</code> (1–2 pages)</li>
 </ol>
+<hr>
+</section>
+<section id="daily-plan-23-hrsday" class="level1">
+<h1>Daily plan (2–3 hrs/day)</h1>
+<section id="day-1-delineate-the-basin-collect-the-minimum-defensible-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="day-1-delineate-the-basin-collect-the-minimum-defensible-dataset">Day 1 — Delineate the basin + collect the “minimum defensible dataset”</h2>
+<section id="delineate-a-watershed-in-streamstats" class="level3">
+<h3 class="anchored" data-anchor-id="delineate-a-watershed-in-streamstats">1) Delineate a watershed in StreamStats</h3>
+<p>Go to the <strong>USGS StreamStats Arizona application</strong> :contentReference<span data-index="4">oaicite:4</span></p>
+<p>Do the following:</p>
+<ul>
+<li>Use the map interface to select a point on the <strong>Upper Verde River network</strong>.
+<ul>
+<li>Choose a point that makes sense as a “project point” (e.g., upstream of a confluence, near a town crossing, or another recognizable location).</li>
+</ul></li>
+<li>Run <strong>Delineate</strong> to generate the basin boundary.</li>
+<li>Export:
+<ul>
+<li>Basin boundary (shapefile/geojson if available), OR at minimum a screenshot with the boundary visible</li>
+<li>Basin characteristics report (download or print-to-PDF)</li>
+</ul></li>
+</ul>
+<p><strong>Deliverable:</strong> Save into <code>curriculum/week-01-deliverables/</code>: - <code>upper-verde_streamstats_report.pdf</code> - <code>figure_01_basin_overview.png</code> (screenshot of delineated basin + point)</p>
+</section>
+<section id="extract-the-minimum-dataset-from-streamstats-outputs" class="level3">
+<h3 class="anchored" data-anchor-id="extract-the-minimum-dataset-from-streamstats-outputs">2) Extract the “minimum dataset” from StreamStats outputs</h3>
+<p>From the StreamStats report, capture (copy into notes): - Drainage area - Mean basin elevation / relief (if available) - Slope metrics - Any climate/precipitation indices StreamStats provides - Any flow statistics (peak/low flow estimates) if available in AZ StreamStats</p>
+<blockquote class="blockquote">
+<p>StreamStats provides GIS-derived basin characteristics and flow statistics in many regions; document exactly what it gives you for your point. :contentReference<span data-index="5">oaicite:5</span></p>
+</blockquote>
+</section>
+<section id="make-a-1-paragraph-basin-description" class="level3">
+<h3 class="anchored" data-anchor-id="make-a-1-paragraph-basin-description">3) Make a 1-paragraph basin description</h3>
+<p>Write a short description (5–8 sentences) summarizing: - Basin location / setting - General hydroclimate (arid SW) - What StreamStats says about size, elevation, slope - Why this is a groundwater-relevant basin (hypothesis to test later)</p>
+<hr>
+</section>
+</section>
+<section id="day-2-build-a-defensible-recharge-zone-map-no-guessing" class="level2">
+<h2 class="anchored" data-anchor-id="day-2-build-a-defensible-recharge-zone-map-no-guessing">Day 2 — Build a defensible recharge-zone map (no “guessing”)</h2>
+<p>You will map <strong>recharge likelihood zones</strong> using proxy evidence.</p>
+<section id="inputs-choose-at-least-two" class="level3">
+<h3 class="anchored" data-anchor-id="inputs-choose-at-least-two">Inputs (choose at least two)</h3>
+<p>Use StreamStats + one or more of: - Hillshade / DEM view (web map or GIS) - Geologic map screenshot (state or USGS) - Soils / land cover view (optional)</p>
+</section>
+<section id="how-to-classify-recharge-zones-rules-you-must-apply" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-classify-recharge-zones-rules-you-must-apply">How to classify recharge zones (rules you must apply)</h3>
+<p>Create 3–5 “recharge likelihood” classes and justify them:</p>
+<p><strong>A. Mountain blocks / high elevation zones</strong> - Hypothesis: higher precip, runoff generation → potential mountain-front recharge (MFR) - Note uncertainty: fractured bedrock can transmit recharge, but spatially variable</p>
+<p><strong>B. Alluvial fans / basin-fill margins</strong> - Hypothesis: coarse sediments + focused runoff infiltration → higher recharge potential</p>
+<p><strong>C. Ephemeral channel corridors</strong> - Hypothesis: focused infiltration during stormflow; losing reaches likely in coarse alluvium</p>
+<p><strong>D. Basin floor fine sediments / high ET zones</strong> - Hypothesis: generally low diffuse recharge; high evaporative demand</p>
+</section>
+<section id="deliverable" class="level3">
+<h3 class="anchored" data-anchor-id="deliverable">Deliverable</h3>
+<p>Create <code>figure_02_conceptual_model_planview.png</code>: - Start with your basin overview (Day 1) - Add labeled polygons/regions for recharge likelihood classes - Add 5–10 annotation callouts (“Why this is likely a recharge zone”)</p>
+<p>Also create a short table in your notes:</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Recharge zone</th>
+<th>Evidence used</th>
+<th>Why plausible</th>
+<th>Biggest uncertainty</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="day-3-infer-groundwater-flow-directions-discharge-zones-with-explicit-logic" class="level2">
+<h2 class="anchored" data-anchor-id="day-3-infer-groundwater-flow-directions-discharge-zones-with-explicit-logic">Day 3 — Infer groundwater flow directions + discharge zones (with explicit logic)</h2>
+<section id="flow-directions-what-you-must-do" class="level3">
+<h3 class="anchored" data-anchor-id="flow-directions-what-you-must-do">1) Flow directions (what you must do)</h3>
+<p>Sketch a <strong>potentiometric surface hypothesis</strong> using:</p>
+<ul>
+<li>Topographic gradients as first-order control (mountains → valley)</li>
+<li>Stream corridor as potential discharge zone (baseflow/springs) or losing zone (episodic infiltration)</li>
+<li>Pumping centers (if you can identify municipal/ag regions from public info; if not, note as “unknown”)</li>
+</ul>
+<p>You are not claiming truth — you are constructing a <strong>defensible first-pass hypothesis</strong>.</p>
+</section>
+<section id="discharge-zones-identify-at-least-2-types" class="level3">
+<h3 class="anchored" data-anchor-id="discharge-zones-identify-at-least-2-types">2) Discharge zones (identify at least 2 types)</h3>
+<p>Common arid/SW discharge mechanisms: - Spring discharge / baseflow to the river - Pumping (anthropogenic discharge) - Riparian ET (phreatophytes) where shallow water table exists</p>
+</section>
+<section id="deliverable-1" class="level3">
+<h3 class="anchored" data-anchor-id="deliverable-1">Deliverable</h3>
+<p>Create <code>figure_03_conceptual_model_xsection.png</code>: - Cross-section from highlands → basin fill → river corridor - Include: - Hydrostratigraphy (bedrock vs basin fill) - Water table shape (conceptual) - Recharge arrows (by zone) - Discharge arrows (river/baseflow, ET, wells) - A note identifying “unknowns” (e.g., depth to bedrock, K contrasts)</p>
+<p>Write 8–12 bullets answering: - “If challenged, what evidence supports my flow direction arrows?”</p>
+<hr>
+</section>
+</section>
+<section id="day-4-data-constraints-defensibility-audit" class="level2">
+<h2 class="anchored" data-anchor-id="day-4-data-constraints-defensibility-audit">Day 4 — Data constraints + “defensibility audit”</h2>
+<p>Make a table (this is a consulting staple):</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Unknown / data gap</th>
+<th>Why it matters</th>
+<th>How it could change conclusions</th>
+<th>What proxy you used</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+<p>Examples of typical arid-basin constraints: - Sparse head observations (few wells) - Poorly constrained hydraulic conductivity zonation - Recharge magnitude &amp; timing unknown - Stream–aquifer interaction unknown (losing vs gaining varies) - Pumping time series unknown</p>
+<p>Then write two lists:</p>
+<p><strong>Most defensible assumptions (5–8)</strong><br>
+<strong>Most vulnerable assumptions (5–8)</strong></p>
+<p>Finally, write 3 “challenge questions” someone could ask in a review: - “How do you know recharge is focused there?” - “Why is that boundary no-flow?” - “What evidence supports gaining vs losing reaches?”</p>
+<hr>
+</section>
+<section id="day-5-write-the-conceptual-model-memo-portfolio-piece" class="level2">
+<h2 class="anchored" data-anchor-id="day-5-write-the-conceptual-model-memo-portfolio-piece">Day 5 — Write the conceptual model memo (portfolio piece)</h2>
+<p>Create <code>upper-verde_conceptual-model-memo.md</code>_</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
