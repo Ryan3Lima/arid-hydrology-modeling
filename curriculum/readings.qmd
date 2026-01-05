@@ -2,4 +2,132 @@
 title: "Readings & Resources"
 ---
 
-## Basic Ground-Water Hydrology 
+This curriculum relies exclusively on **free, open-access groundwater texts** from  
+**The Groundwater Project** and the **U.S. Geological Survey (USGS)**.  
+
+These readings are widely used in professional practice and graduate-level instruction and are appropriate preparation for groundwater modeling work in the arid southwestern United States.
+
+---
+
+## Core Conceptual Foundations (Start Here)
+
+### *Basic Ground-Water Hydrology* — Ralph C. Heath (USGS)
+
+A concise and intuitive introduction to groundwater concepts, written for scientists and engineers.
+
+This report explains aquifers, hydraulic head, gradients, flow systems, and groundwater–surface water interactions with minimal mathematics and clear physical reasoning. It is ideal for refreshing fundamentals before moving into equations or numerical models.
+
+Recommended use:
+- Week 1 conceptual modeling
+- Reference throughout the course
+
+:contentReference[oaicite:0]{index=0}
+
+---
+
+### *Introduction to Ground-Water Hydraulics: A Programed Text for Self-Instruction* — Gordon D. Bennett (USGS)
+
+A classic, self-paced introduction to groundwater flow equations and hydraulic principles.
+
+This text develops Darcy’s Law, storage concepts, and flow equations step by step using guided questions and answers. It is especially helpful if you understand calculus but want to strengthen your physical intuition for the math.
+
+Recommended use:
+- Week 1–2 (flow equations and assumptions)
+- Supplemental reference when equations feel abstract
+
+:contentReference[oaicite:1]{index=1}
+
+---
+
+## Conceptual Models & Geologic Frameworks
+
+### *Geologic Frameworks for Groundwater Flow Models* — J. P. Brandenburg
+
+A focused guide on how to translate geologic understanding into a model-ready conceptual framework.
+
+This book emphasizes stratigraphy, structure, gridding, and how to represent sparse geologic data realistically. It is especially relevant for arid basins where subsurface information is limited and uncertainty must be managed explicitly.
+
+Recommended use:
+- Week 1 conceptual model development
+- Week 2 model design decisions
+
+:contentReference[oaicite:2]{index=2}
+
+---
+
+## Numerical Modeling (MODFLOW-Focused)
+
+### *Getting Started with MODFLOW* — Richard B. Winston
+
+A modern, practical introduction to MODFLOW using free tools and clear examples.
+
+This book walks through assumptions, discretization, boundary conditions, and model setup with emphasis on understanding *why* choices are made. It is well suited for learners who want to build defensible models rather than just run software.
+
+Recommended use:
+- Week 3 numerical modeling
+- First hands-on MODFLOW experience
+
+:contentReference[oaicite:3]{index=3}
+
+---
+
+## Model Evaluation, Assumptions, and Defensibility
+
+### *Guidelines for Evaluating Ground-Water Flow Models* — Reilly & Harbaugh (USGS)
+
+A foundational document on how groundwater models should be evaluated, reviewed, and defended.
+
+This report explains calibration, sensitivity analysis, uncertainty, and the difference between hypothetical and predictive models. It is especially valuable for consulting work, regulatory review, and expert testimony contexts.
+
+Recommended use:
+- Week 4 (model evaluation and communication)
+- Required reading for professional practice
+
+:contentReference[oaicite:4]{index=4}
+
+---
+
+## Terminology and Conceptual Precision
+
+### *Definitions of Selected Ground-Water Terms — Revisions and Conceptual Refinements* — Lohman et al. (USGS)
+
+An authoritative reference on groundwater terminology and definitions.
+
+This document clarifies commonly misunderstood terms such as hydraulic conductivity, transmissivity, storage, head, and flux. It is useful for ensuring consistent language in reports and models.
+
+Recommended use:
+- Ongoing reference
+- Supporting material for the course glossary
+
+:contentReference[oaicite:5]{index=5}
+
+---
+
+## Comprehensive Reference (Optional, Advanced)
+
+### *Groundwater* — R. Allan Freeze & John A. Cherry
+
+A comprehensive and rigorous treatment of groundwater flow, chemistry, and modeling.
+
+This classic text underpins much of modern groundwater theory and modeling practice. While not required reading for this course, selected chapters provide valuable depth on flow systems, recharge, discharge, and regional groundwater behavior.
+
+Recommended use:
+- Optional deep dives
+- Background reading for advanced modeling topics
+
+:contentReference[oaicite:6]{index=6}
+
+---
+
+## How to Use These Readings in This Curriculum
+
+- **Do not attempt to read everything cover-to-cover**
+- Use readings to:
+  - Clarify concepts encountered in exercises
+  - Strengthen physical intuition behind equations
+  - Learn the language used in professional groundwater modeling
+- Revisit key sections as you progress through Weeks 1–4
+
+This mirrors how practicing hydrologists actually use reference material.
+
+---
