@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hydrologic Modeling in Arid Systems",
+    "section": "",
+    "text": "This repository documents a one-month self-directed curriculum focused on defensible groundwater and hydrologic modeling in arid and semi-arid systems, with an emphasis on:\n\nSparse data environments\n\nGroundwater-dominated basins\n\nRecharge uncertainty\n\nOpen-source modeling tools\n\nThe goal is not to produce “perfect” models, but to understand, explain, and defend modeling assumptions, consistent with real-world consulting practice."
+  },
+  {
+    "objectID": "index.html#purpose",
+    "href": "index.html#purpose",
+    "title": "Hydrologic Modeling in Arid Systems",
+    "section": "",
+    "text": "This repository documents a one-month self-directed curriculum focused on defensible groundwater and hydrologic modeling in arid and semi-arid systems, with an emphasis on:\n\nSparse data environments\n\nGroundwater-dominated basins\n\nRecharge uncertainty\n\nOpen-source modeling tools\n\nThe goal is not to produce “perfect” models, but to understand, explain, and defend modeling assumptions, consistent with real-world consulting practice."
+  },
+  {
+    "objectID": "index.html#audience",
+    "href": "index.html#audience",
+    "title": "Hydrologic Modeling in Arid Systems",
+    "section": "Audience",
+    "text": "Audience\n\nEarly-career hydrologists\nGraduate students\nPractitioners transitioning into modeling-heavy roles"
+  },
+  {
+    "objectID": "index.html#tools",
+    "href": "index.html#tools",
+    "title": "Hydrologic Modeling in Arid Systems",
+    "section": "Tools",
+    "text": "Tools\n\nMODFLOW 6\nFloPy\nModelMuse\nPython / Jupyter\nQuarto"
+  },
+  {
+    "objectID": "index.html#structure",
+    "href": "index.html#structure",
+    "title": "Hydrologic Modeling in Arid Systems",
+    "section": "Structure",
+    "text": "Structure\nThe curriculum is organized into four weeks, each combining: - Conceptual grounding - Hands-on modeling - Uncertainty analysis - Professional communication"
+  },
+  {
+    "objectID": "curriculum/week-01-concepts.html",
+    "href": "curriculum/week-01-concepts.html",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology",
+    "section": "",
+    "text": "Understand groundwater flow in arid systems\nIdentify dominant recharge mechanisms\nDevelop defensible conceptual models under data scarcity"
+  },
+  {
+    "objectID": "curriculum/week-01-concepts.html#objectives",
+    "href": "curriculum/week-01-concepts.html#objectives",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology",
+    "section": "",
+    "text": "Understand groundwater flow in arid systems\nIdentify dominant recharge mechanisms\nDevelop defensible conceptual models under data scarcity"
+  },
+  {
+    "objectID": "curriculum/week-01-concepts.html#key-themes",
+    "href": "curriculum/week-01-concepts.html#key-themes",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology",
+    "section": "Key Themes",
+    "text": "Key Themes\n\nConceptual uncertainty &gt; parameter uncertainty\nRecharge as an inferred quantity\nBasin-scale thinking"
+  },
+  {
+    "objectID": "curriculum/week-01-concepts.html#exercises",
+    "href": "curriculum/week-01-concepts.html#exercises",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology",
+    "section": "Exercises",
+    "text": "Exercises\n\nSketch a conceptual groundwater model for an arid basin\nIdentify recharge pathways and uncertainties\nWrite a 1–2 page conceptual model memo"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]

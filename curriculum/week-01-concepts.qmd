@@ -1,0 +1,21 @@
+---
+title: "Week 1 – Conceptual Models & Arid Hydrology"
+---
+
+## Objectives
+
+- Understand groundwater flow in arid systems
+- Identify dominant recharge mechanisms
+- Develop defensible conceptual models under data scarcity
+
+## Key Themes
+
+- Conceptual uncertainty > parameter uncertainty
+- Recharge as an inferred quantity
+- Basin-scale thinking
+
+## Exercises
+
+1. Sketch a conceptual groundwater model for an arid basin
+2. Identify recharge pathways and uncertainties
+3. Write a 1–2 page conceptual model memo

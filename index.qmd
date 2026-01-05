@@ -1,0 +1,39 @@
+---
+title: "Hydrologic Modeling in Arid Systems"
+---
+
+## Purpose
+
+This repository documents a one-month self-directed curriculum focused on
+**defensible groundwater and hydrologic modeling in arid and semi-arid systems**,
+with an emphasis on:
+
+- Sparse data environments  
+- Groundwater-dominated basins  
+- Recharge uncertainty  
+- Open-source modeling tools  
+
+The goal is not to produce “perfect” models, but to **understand, explain, and
+defend modeling assumptions**, consistent with real-world consulting practice.
+
+## Audience
+
+- Early-career hydrologists
+- Graduate students
+- Practitioners transitioning into modeling-heavy roles
+
+## Tools
+
+- MODFLOW 6
+- FloPy
+- ModelMuse
+- Python / Jupyter
+- Quarto
+
+## Structure
+
+The curriculum is organized into four weeks, each combining:
+- Conceptual grounding
+- Hands-on modeling
+- Uncertainty analysis
+- Professional communication

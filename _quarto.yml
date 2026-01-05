@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+  
+
+website:
+  title: "Hydrologic Modeling in Arid Systems"
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: curriculum/week-01-concepts.qmd
+        text: Concepts
+      - href: curriculum/week-02-modflow.qmd
+        text: MODFLOW
+      - href: curriculum/week-03-uncertainty.qmd
+        text: Uncertainty
+      - href: curriculum/week-04-practice.qmd
+        text: Practice
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    code-fold: true
+
+
+
