@@ -1,108 +1,66 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hydrologic Modeling in Arid Systems",
+    "objectID": "curriculum/readings.html",
+    "href": "curriculum/readings.html",
+    "title": "Readings & Resources",
     "section": "",
-    "text": "This repository documents a one-month self-directed curriculum focused on defensible groundwater and hydrologic modeling in arid and semi-arid systems, with an emphasis on:\n\nSparse data environments\n\nGroundwater-dominated basins\n\nRecharge uncertainty\n\nOpen-source modeling tools\n\nThe goal is not to produce “perfect” models, but to understand, explain, and defend modeling assumptions, consistent with real-world consulting practice."
+    "text": "This curriculum relies exclusively on free, open-access groundwater texts from\nThe Groundwater Project and the U.S. Geological Survey (USGS).\nThese readings are widely used in professional practice and graduate-level instruction and are appropriate preparation for groundwater modeling work in the arid southwestern United States."
   },
   {
-    "objectID": "index.html#purpose",
-    "href": "index.html#purpose",
-    "title": "Hydrologic Modeling in Arid Systems",
+    "objectID": "curriculum/readings.html#core-conceptual-foundations-start-here",
+    "href": "curriculum/readings.html#core-conceptual-foundations-start-here",
+    "title": "Readings & Resources",
+    "section": "Core Conceptual Foundations (Start Here)",
+    "text": "Core Conceptual Foundations (Start Here)\n\nBasic Ground-Water Hydrology — Ralph C. Heath (USGS)\nA concise and intuitive introduction to groundwater concepts, written for scientists and engineers.\nThis report explains aquifers, hydraulic head, gradients, flow systems, and groundwater–surface water interactions with minimal mathematics and clear physical reasoning. It is ideal for refreshing fundamentals before moving into equations or numerical models.\nRecommended use: - Week 1 conceptual modeling - Reference throughout the course\n:contentReferenceoaicite:0\n\n\n\nIntroduction to Ground-Water Hydraulics: A Programed Text for Self-Instruction — Gordon D. Bennett (USGS)\nA classic, self-paced introduction to groundwater flow equations and hydraulic principles.\nThis text develops Darcy’s Law, storage concepts, and flow equations step by step using guided questions and answers. It is especially helpful if you understand calculus but want to strengthen your physical intuition for the math.\nRecommended use: - Week 1–2 (flow equations and assumptions) - Supplemental reference when equations feel abstract\n:contentReferenceoaicite:1"
+  },
+  {
+    "objectID": "curriculum/readings.html#conceptual-models-geologic-frameworks",
+    "href": "curriculum/readings.html#conceptual-models-geologic-frameworks",
+    "title": "Readings & Resources",
+    "section": "Conceptual Models & Geologic Frameworks",
+    "text": "Conceptual Models & Geologic Frameworks\n\nGeologic Frameworks for Groundwater Flow Models — J. P. Brandenburg\nA focused guide on how to translate geologic understanding into a model-ready conceptual framework.\nThis book emphasizes stratigraphy, structure, gridding, and how to represent sparse geologic data realistically. It is especially relevant for arid basins where subsurface information is limited and uncertainty must be managed explicitly.\nRecommended use: - Week 1 conceptual model development - Week 2 model design decisions\n:contentReferenceoaicite:2"
+  },
+  {
+    "objectID": "curriculum/readings.html#numerical-modeling-modflow-focused",
+    "href": "curriculum/readings.html#numerical-modeling-modflow-focused",
+    "title": "Readings & Resources",
+    "section": "Numerical Modeling (MODFLOW-Focused)",
+    "text": "Numerical Modeling (MODFLOW-Focused)\n\nGetting Started with MODFLOW — Richard B. Winston\nA modern, practical introduction to MODFLOW using free tools and clear examples.\nThis book walks through assumptions, discretization, boundary conditions, and model setup with emphasis on understanding why choices are made. It is well suited for learners who want to build defensible models rather than just run software.\nRecommended use: - Week 3 numerical modeling - First hands-on MODFLOW experience\n:contentReferenceoaicite:3"
+  },
+  {
+    "objectID": "curriculum/readings.html#model-evaluation-assumptions-and-defensibility",
+    "href": "curriculum/readings.html#model-evaluation-assumptions-and-defensibility",
+    "title": "Readings & Resources",
+    "section": "Model Evaluation, Assumptions, and Defensibility",
+    "text": "Model Evaluation, Assumptions, and Defensibility\n\nGuidelines for Evaluating Ground-Water Flow Models — Reilly & Harbaugh (USGS)\nA foundational document on how groundwater models should be evaluated, reviewed, and defended.\nThis report explains calibration, sensitivity analysis, uncertainty, and the difference between hypothetical and predictive models. It is especially valuable for consulting work, regulatory review, and expert testimony contexts.\nRecommended use: - Week 4 (model evaluation and communication) - Required reading for professional practice\n:contentReferenceoaicite:4"
+  },
+  {
+    "objectID": "curriculum/readings.html#terminology-and-conceptual-precision",
+    "href": "curriculum/readings.html#terminology-and-conceptual-precision",
+    "title": "Readings & Resources",
+    "section": "Terminology and Conceptual Precision",
+    "text": "Terminology and Conceptual Precision\n\nDefinitions of Selected Ground-Water Terms — Revisions and Conceptual Refinements — Lohman et al. (USGS)\nAn authoritative reference on groundwater terminology and definitions.\nThis document clarifies commonly misunderstood terms such as hydraulic conductivity, transmissivity, storage, head, and flux. It is useful for ensuring consistent language in reports and models.\nRecommended use: - Ongoing reference - Supporting material for the course glossary\n:contentReferenceoaicite:5"
+  },
+  {
+    "objectID": "curriculum/readings.html#comprehensive-reference-optional-advanced",
+    "href": "curriculum/readings.html#comprehensive-reference-optional-advanced",
+    "title": "Readings & Resources",
+    "section": "Comprehensive Reference (Optional, Advanced)",
+    "text": "Comprehensive Reference (Optional, Advanced)\n\nGroundwater — R. Allan Freeze & John A. Cherry\nA comprehensive and rigorous treatment of groundwater flow, chemistry, and modeling.\nThis classic text underpins much of modern groundwater theory and modeling practice. While not required reading for this course, selected chapters provide valuable depth on flow systems, recharge, discharge, and regional groundwater behavior.\nRecommended use: - Optional deep dives - Background reading for advanced modeling topics\n:contentReferenceoaicite:6"
+  },
+  {
+    "objectID": "curriculum/readings.html#how-to-use-these-readings-in-this-curriculum",
+    "href": "curriculum/readings.html#how-to-use-these-readings-in-this-curriculum",
+    "title": "Readings & Resources",
+    "section": "How to Use These Readings in This Curriculum",
+    "text": "How to Use These Readings in This Curriculum\n\nDo not attempt to read everything cover-to-cover\nUse readings to:\n\nClarify concepts encountered in exercises\nStrengthen physical intuition behind equations\nLearn the language used in professional groundwater modeling\n\nRevisit key sections as you progress through Weeks 1–4\n\nThis mirrors how practicing hydrologists actually use reference material."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "This repository documents a one-month self-directed curriculum focused on defensible groundwater and hydrologic modeling in arid and semi-arid systems, with an emphasis on:\n\nSparse data environments\n\nGroundwater-dominated basins\n\nRecharge uncertainty\n\nOpen-source modeling tools\n\nThe goal is not to produce “perfect” models, but to understand, explain, and defend modeling assumptions, consistent with real-world consulting practice."
-  },
-  {
-    "objectID": "index.html#audience",
-    "href": "index.html#audience",
-    "title": "Hydrologic Modeling in Arid Systems",
-    "section": "Audience",
-    "text": "Audience\n\nEarly-career hydrologists\nGraduate students\nPractitioners transitioning into modeling-heavy roles"
-  },
-  {
-    "objectID": "index.html#tools",
-    "href": "index.html#tools",
-    "title": "Hydrologic Modeling in Arid Systems",
-    "section": "Tools",
-    "text": "Tools\n\nMODFLOW 6\nFloPy\nModelMuse\nPython / Jupyter\nQuarto"
-  },
-  {
-    "objectID": "index.html#structure",
-    "href": "index.html#structure",
-    "title": "Hydrologic Modeling in Arid Systems",
-    "section": "Structure",
-    "text": "Structure\nThe curriculum is organized into four weeks, each combining:\n\nConceptual grounding\nHands-on modeling\nUncertainty analysis\nProfessional communication"
-  },
-  {
-    "objectID": "curriculum/week-01-concepts.html",
-    "href": "curriculum/week-01-concepts.html",
-    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
-    "section": "",
-    "text": "By the end of Week 1, you will be able to:\n\nDelineate a real basin using USGS StreamStats and extract basin characteristics\nBuild a defensible conceptual groundwater model for an arid/SW basin using proxy evidence\nIdentify likely recharge zones, flow directions, and discharge zones (with justification)\nWrite a short assumptions + uncertainty memo in a consulting style"
-  },
-  {
-    "objectID": "curriculum/week-01-concepts.html#week-goals",
-    "href": "curriculum/week-01-concepts.html#week-goals",
-    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
-    "section": "",
-    "text": "By the end of Week 1, you will be able to:\n\nDelineate a real basin using USGS StreamStats and extract basin characteristics\nBuild a defensible conceptual groundwater model for an arid/SW basin using proxy evidence\nIdentify likely recharge zones, flow directions, and discharge zones (with justification)\nWrite a short assumptions + uncertainty memo in a consulting style"
-  },
-  {
-    "objectID": "curriculum/week-01-concepts.html#case-study-basin",
-    "href": "curriculum/week-01-concepts.html#case-study-basin",
-    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
-    "section": "Case study basin",
-    "text": "Case study basin\nUpper Verde River (HUC8: 15060202) :contentReferenceoaicite:2\nWhy this basin works for learning: - Arizona-relevant hydroclimate and mixed mountain/basin settings - Strong groundwater–surface water interactions (springs/baseflow on parts of the Verde) - Plenty of public context, but still “real-world messy” in terms of uncertainty"
-  },
-  {
-    "objectID": "curriculum/week-01-concepts.html#tools-you-will-use-this-week",
-    "href": "curriculum/week-01-concepts.html#tools-you-will-use-this-week",
-    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
-    "section": "Tools you will use this week",
-    "text": "Tools you will use this week\n\nUSGS StreamStats (Arizona application) for basin delineation + basin characteristics :contentReferenceoaicite:3\nA basemap viewer (web) and/or GIS (optional) for hillshade/geology screenshots\nYour notes (markdown or a dedicated week-01-notes.md)\n\n\nYou do not need to build a numerical model yet. The job skill this week is: turning incomplete evidence into explicit, defensible assumptions."
-  },
-  {
-    "objectID": "curriculum/week-01-concepts.html#deliverables-you-will-publish-these-to-your-repo",
-    "href": "curriculum/week-01-concepts.html#deliverables-you-will-publish-these-to-your-repo",
-    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
-    "section": "Deliverables (you will publish these to your repo)",
-    "text": "Deliverables (you will publish these to your repo)\nCreate a folder: curriculum/week-01-deliverables/\nBy the end of the week, commit:\n\nupper-verde_streamstats_report.pdf (or HTML print) + upper-verde_basin_boundary.* if you export it\nfigure_01_basin_overview.png (annotated screenshot map with basin outline)\nfigure_02_conceptual_model_planview.png (your conceptual diagram)\nfigure_03_conceptual_model_xsection.png (your conceptual cross-section)\nupper-verde_conceptual-model-memo.md (1–2 pages)"
-  },
-  {
-    "objectID": "curriculum/week-01-concepts.html#day-1-delineate-the-basin-collect-the-minimum-defensible-dataset",
-    "href": "curriculum/week-01-concepts.html#day-1-delineate-the-basin-collect-the-minimum-defensible-dataset",
-    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
-    "section": "Day 1 — Delineate the basin + collect the “minimum defensible dataset”",
-    "text": "Day 1 — Delineate the basin + collect the “minimum defensible dataset”\n\n1) Delineate a watershed in StreamStats\nGo to the USGS StreamStats Arizona application :contentReferenceoaicite:4\nDo the following:\n\nUse the map interface to select a point on the Upper Verde River network.\n\nChoose a point that makes sense as a “project point” (e.g., upstream of a confluence, near a town crossing, or another recognizable location).\n\nRun Delineate to generate the basin boundary.\nExport:\n\nBasin boundary (shapefile/geojson if available), OR at minimum a screenshot with the boundary visible\nBasin characteristics report (download or print-to-PDF)\n\n\nDeliverable: Save into curriculum/week-01-deliverables/: - upper-verde_streamstats_report.pdf - figure_01_basin_overview.png (screenshot of delineated basin + point)\n\n\n2) Extract the “minimum dataset” from StreamStats outputs\nFrom the StreamStats report, capture (copy into notes): - Drainage area - Mean basin elevation / relief (if available) - Slope metrics - Any climate/precipitation indices StreamStats provides - Any flow statistics (peak/low flow estimates) if available in AZ StreamStats\n\nStreamStats provides GIS-derived basin characteristics and flow statistics in many regions; document exactly what it gives you for your point. :contentReferenceoaicite:5\n\n\n\n3) Make a 1-paragraph basin description\nWrite a short description (5–8 sentences) summarizing: - Basin location / setting - General hydroclimate (arid SW) - What StreamStats says about size, elevation, slope - Why this is a groundwater-relevant basin (hypothesis to test later)"
-  },
-  {
-    "objectID": "curriculum/week-01-concepts.html#day-2-build-a-defensible-recharge-zone-map-no-guessing",
-    "href": "curriculum/week-01-concepts.html#day-2-build-a-defensible-recharge-zone-map-no-guessing",
-    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
-    "section": "Day 2 — Build a defensible recharge-zone map (no “guessing”)",
-    "text": "Day 2 — Build a defensible recharge-zone map (no “guessing”)\nYou will map recharge likelihood zones using proxy evidence.\n\nInputs (choose at least two)\nUse StreamStats + one or more of: - Hillshade / DEM view (web map or GIS) - Geologic map screenshot (state or USGS) - Soils / land cover view (optional)\n\n\nHow to classify recharge zones (rules you must apply)\nCreate 3–5 “recharge likelihood” classes and justify them:\nA. Mountain blocks / high elevation zones - Hypothesis: higher precip, runoff generation → potential mountain-front recharge (MFR) - Note uncertainty: fractured bedrock can transmit recharge, but spatially variable\nB. Alluvial fans / basin-fill margins - Hypothesis: coarse sediments + focused runoff infiltration → higher recharge potential\nC. Ephemeral channel corridors - Hypothesis: focused infiltration during stormflow; losing reaches likely in coarse alluvium\nD. Basin floor fine sediments / high ET zones - Hypothesis: generally low diffuse recharge; high evaporative demand\n\n\nDeliverable\nCreate figure_02_conceptual_model_planview.png: - Start with your basin overview (Day 1) - Add labeled polygons/regions for recharge likelihood classes - Add 5–10 annotation callouts (“Why this is likely a recharge zone”)\nAlso create a short table in your notes:\n\n\n\nRecharge zone\nEvidence used\nWhy plausible\nBiggest uncertainty"
-  },
-  {
-    "objectID": "curriculum/week-01-concepts.html#day-3-infer-groundwater-flow-directions-discharge-zones-with-explicit-logic",
-    "href": "curriculum/week-01-concepts.html#day-3-infer-groundwater-flow-directions-discharge-zones-with-explicit-logic",
-    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
-    "section": "Day 3 — Infer groundwater flow directions + discharge zones (with explicit logic)",
-    "text": "Day 3 — Infer groundwater flow directions + discharge zones (with explicit logic)\n\n1) Flow directions (what you must do)\nSketch a potentiometric surface hypothesis using:\n\nTopographic gradients as first-order control (mountains → valley)\nStream corridor as potential discharge zone (baseflow/springs) or losing zone (episodic infiltration)\nPumping centers (if you can identify municipal/ag regions from public info; if not, note as “unknown”)\n\nYou are not claiming truth — you are constructing a defensible first-pass hypothesis.\n\n\n2) Discharge zones (identify at least 2 types)\nCommon arid/SW discharge mechanisms: - Spring discharge / baseflow to the river - Pumping (anthropogenic discharge) - Riparian ET (phreatophytes) where shallow water table exists\n\n\nDeliverable\nCreate figure_03_conceptual_model_xsection.png: - Cross-section from highlands → basin fill → river corridor - Include: - Hydrostratigraphy (bedrock vs basin fill) - Water table shape (conceptual) - Recharge arrows (by zone) - Discharge arrows (river/baseflow, ET, wells) - A note identifying “unknowns” (e.g., depth to bedrock, K contrasts)\nWrite 8–12 bullets answering: - “If challenged, what evidence supports my flow direction arrows?”"
-  },
-  {
-    "objectID": "curriculum/week-01-concepts.html#day-4-data-constraints-defensibility-audit",
-    "href": "curriculum/week-01-concepts.html#day-4-data-constraints-defensibility-audit",
-    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
-    "section": "Day 4 — Data constraints + “defensibility audit”",
-    "text": "Day 4 — Data constraints + “defensibility audit”\nMake a table (this is a consulting staple):\n\n\n\n\n\n\n\n\n\nUnknown / data gap\nWhy it matters\nHow it could change conclusions\nWhat proxy you used\n\n\n\n\n\nExamples of typical arid-basin constraints: - Sparse head observations (few wells) - Poorly constrained hydraulic conductivity zonation - Recharge magnitude & timing unknown - Stream–aquifer interaction unknown (losing vs gaining varies) - Pumping time series unknown\nThen write two lists:\nMost defensible assumptions (5–8)\nMost vulnerable assumptions (5–8)\nFinally, write 3 “challenge questions” someone could ask in a review: - “How do you know recharge is focused there?” - “Why is that boundary no-flow?” - “What evidence supports gaining vs losing reaches?”"
-  },
-  {
-    "objectID": "curriculum/week-01-concepts.html#day-5-write-the-conceptual-model-memo-portfolio-piece",
-    "href": "curriculum/week-01-concepts.html#day-5-write-the-conceptual-model-memo-portfolio-piece",
-    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
-    "section": "Day 5 — Write the conceptual model memo (portfolio piece)",
-    "text": "Day 5 — Write the conceptual model memo (portfolio piece)\nCreate upper-verde_conceptual-model-memo.md_"
+    "text": "About this site"
   },
   {
     "objectID": "curriculum/glossary.html",
@@ -273,66 +231,108 @@
     "text": "Q–h Relationship (Discharge–Head Relationship)\nThe functional relationship between groundwater discharge and hydraulic head.\nThis relationship is often plotted to show how flux across a boundary changes as groundwater levels rise or fall. It is especially useful for understanding head-dependent boundaries."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "curriculum/week-01-concepts.html",
+    "href": "curriculum/week-01-concepts.html",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
     "section": "",
-    "text": "About this site"
+    "text": "By the end of Week 1, you will be able to:\n\nDelineate a real basin using USGS StreamStats and extract basin characteristics\nBuild a defensible conceptual groundwater model for an arid/SW basin using proxy evidence\nIdentify likely recharge zones, flow directions, and discharge zones (with justification)\nWrite a short assumptions + uncertainty memo in a consulting style"
   },
   {
-    "objectID": "curriculum/readings.html",
-    "href": "curriculum/readings.html",
-    "title": "Readings & Resources",
+    "objectID": "curriculum/week-01-concepts.html#week-goals",
+    "href": "curriculum/week-01-concepts.html#week-goals",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
     "section": "",
-    "text": "This curriculum relies exclusively on free, open-access groundwater texts from\nThe Groundwater Project and the U.S. Geological Survey (USGS).\nThese readings are widely used in professional practice and graduate-level instruction and are appropriate preparation for groundwater modeling work in the arid southwestern United States."
+    "text": "By the end of Week 1, you will be able to:\n\nDelineate a real basin using USGS StreamStats and extract basin characteristics\nBuild a defensible conceptual groundwater model for an arid/SW basin using proxy evidence\nIdentify likely recharge zones, flow directions, and discharge zones (with justification)\nWrite a short assumptions + uncertainty memo in a consulting style"
   },
   {
-    "objectID": "curriculum/readings.html#core-conceptual-foundations-start-here",
-    "href": "curriculum/readings.html#core-conceptual-foundations-start-here",
-    "title": "Readings & Resources",
-    "section": "Core Conceptual Foundations (Start Here)",
-    "text": "Core Conceptual Foundations (Start Here)\n\nBasic Ground-Water Hydrology — Ralph C. Heath (USGS)\nA concise and intuitive introduction to groundwater concepts, written for scientists and engineers.\nThis report explains aquifers, hydraulic head, gradients, flow systems, and groundwater–surface water interactions with minimal mathematics and clear physical reasoning. It is ideal for refreshing fundamentals before moving into equations or numerical models.\nRecommended use: - Week 1 conceptual modeling - Reference throughout the course\n:contentReferenceoaicite:0\n\n\n\nIntroduction to Ground-Water Hydraulics: A Programed Text for Self-Instruction — Gordon D. Bennett (USGS)\nA classic, self-paced introduction to groundwater flow equations and hydraulic principles.\nThis text develops Darcy’s Law, storage concepts, and flow equations step by step using guided questions and answers. It is especially helpful if you understand calculus but want to strengthen your physical intuition for the math.\nRecommended use: - Week 1–2 (flow equations and assumptions) - Supplemental reference when equations feel abstract\n:contentReferenceoaicite:1"
+    "objectID": "curriculum/week-01-concepts.html#case-study-basin",
+    "href": "curriculum/week-01-concepts.html#case-study-basin",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
+    "section": "Case study basin",
+    "text": "Case study basin\nUpper Verde River (HUC8: 15060202) :contentReferenceoaicite:2\nWhy this basin works for learning: - Arizona-relevant hydroclimate and mixed mountain/basin settings - Strong groundwater–surface water interactions (springs/baseflow on parts of the Verde) - Plenty of public context, but still “real-world messy” in terms of uncertainty"
   },
   {
-    "objectID": "curriculum/readings.html#conceptual-models-geologic-frameworks",
-    "href": "curriculum/readings.html#conceptual-models-geologic-frameworks",
-    "title": "Readings & Resources",
-    "section": "Conceptual Models & Geologic Frameworks",
-    "text": "Conceptual Models & Geologic Frameworks\n\nGeologic Frameworks for Groundwater Flow Models — J. P. Brandenburg\nA focused guide on how to translate geologic understanding into a model-ready conceptual framework.\nThis book emphasizes stratigraphy, structure, gridding, and how to represent sparse geologic data realistically. It is especially relevant for arid basins where subsurface information is limited and uncertainty must be managed explicitly.\nRecommended use: - Week 1 conceptual model development - Week 2 model design decisions\n:contentReferenceoaicite:2"
+    "objectID": "curriculum/week-01-concepts.html#tools-you-will-use-this-week",
+    "href": "curriculum/week-01-concepts.html#tools-you-will-use-this-week",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
+    "section": "Tools you will use this week",
+    "text": "Tools you will use this week\n\nUSGS StreamStats (Arizona application) for basin delineation + basin characteristics :contentReferenceoaicite:3\nA basemap viewer (web) and/or GIS (optional) for hillshade/geology screenshots\nYour notes (markdown or a dedicated week-01-notes.md)\n\n\nYou do not need to build a numerical model yet. The job skill this week is: turning incomplete evidence into explicit, defensible assumptions."
   },
   {
-    "objectID": "curriculum/readings.html#numerical-modeling-modflow-focused",
-    "href": "curriculum/readings.html#numerical-modeling-modflow-focused",
-    "title": "Readings & Resources",
-    "section": "Numerical Modeling (MODFLOW-Focused)",
-    "text": "Numerical Modeling (MODFLOW-Focused)\n\nGetting Started with MODFLOW — Richard B. Winston\nA modern, practical introduction to MODFLOW using free tools and clear examples.\nThis book walks through assumptions, discretization, boundary conditions, and model setup with emphasis on understanding why choices are made. It is well suited for learners who want to build defensible models rather than just run software.\nRecommended use: - Week 3 numerical modeling - First hands-on MODFLOW experience\n:contentReferenceoaicite:3"
+    "objectID": "curriculum/week-01-concepts.html#deliverables-you-will-publish-these-to-your-repo",
+    "href": "curriculum/week-01-concepts.html#deliverables-you-will-publish-these-to-your-repo",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
+    "section": "Deliverables (you will publish these to your repo)",
+    "text": "Deliverables (you will publish these to your repo)\nCreate a folder: curriculum/week-01-deliverables/\nBy the end of the week, commit:\n\nupper-verde_streamstats_report.pdf (or HTML print) + upper-verde_basin_boundary.* if you export it\nfigure_01_basin_overview.png (annotated screenshot map with basin outline)\nfigure_02_conceptual_model_planview.png (your conceptual diagram)\nfigure_03_conceptual_model_xsection.png (your conceptual cross-section)\nupper-verde_conceptual-model-memo.md (1–2 pages)"
   },
   {
-    "objectID": "curriculum/readings.html#model-evaluation-assumptions-and-defensibility",
-    "href": "curriculum/readings.html#model-evaluation-assumptions-and-defensibility",
-    "title": "Readings & Resources",
-    "section": "Model Evaluation, Assumptions, and Defensibility",
-    "text": "Model Evaluation, Assumptions, and Defensibility\n\nGuidelines for Evaluating Ground-Water Flow Models — Reilly & Harbaugh (USGS)\nA foundational document on how groundwater models should be evaluated, reviewed, and defended.\nThis report explains calibration, sensitivity analysis, uncertainty, and the difference between hypothetical and predictive models. It is especially valuable for consulting work, regulatory review, and expert testimony contexts.\nRecommended use: - Week 4 (model evaluation and communication) - Required reading for professional practice\n:contentReferenceoaicite:4"
+    "objectID": "curriculum/week-01-concepts.html#day-1-delineate-the-basin-collect-the-minimum-defensible-dataset",
+    "href": "curriculum/week-01-concepts.html#day-1-delineate-the-basin-collect-the-minimum-defensible-dataset",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
+    "section": "Day 1 — Delineate the basin + collect the “minimum defensible dataset”",
+    "text": "Day 1 — Delineate the basin + collect the “minimum defensible dataset”\n\n1) Delineate a watershed in StreamStats\nGo to the USGS StreamStats Arizona application :contentReferenceoaicite:4\nDo the following:\n\nUse the map interface to select a point on the Upper Verde River network.\n\nChoose a point that makes sense as a “project point” (e.g., upstream of a confluence, near a town crossing, or another recognizable location).\n\nRun Delineate to generate the basin boundary.\nExport:\n\nBasin boundary (shapefile/geojson if available), OR at minimum a screenshot with the boundary visible\nBasin characteristics report (download or print-to-PDF)\n\n\nDeliverable: Save into curriculum/week-01-deliverables/: - upper-verde_streamstats_report.pdf - figure_01_basin_overview.png (screenshot of delineated basin + point)\n\n\n2) Extract the “minimum dataset” from StreamStats outputs\nFrom the StreamStats report, capture (copy into notes): - Drainage area - Mean basin elevation / relief (if available) - Slope metrics - Any climate/precipitation indices StreamStats provides - Any flow statistics (peak/low flow estimates) if available in AZ StreamStats\n\nStreamStats provides GIS-derived basin characteristics and flow statistics in many regions; document exactly what it gives you for your point. :contentReferenceoaicite:5\n\n\n\n3) Make a 1-paragraph basin description\nWrite a short description (5–8 sentences) summarizing: - Basin location / setting - General hydroclimate (arid SW) - What StreamStats says about size, elevation, slope - Why this is a groundwater-relevant basin (hypothesis to test later)"
   },
   {
-    "objectID": "curriculum/readings.html#terminology-and-conceptual-precision",
-    "href": "curriculum/readings.html#terminology-and-conceptual-precision",
-    "title": "Readings & Resources",
-    "section": "Terminology and Conceptual Precision",
-    "text": "Terminology and Conceptual Precision\n\nDefinitions of Selected Ground-Water Terms — Revisions and Conceptual Refinements — Lohman et al. (USGS)\nAn authoritative reference on groundwater terminology and definitions.\nThis document clarifies commonly misunderstood terms such as hydraulic conductivity, transmissivity, storage, head, and flux. It is useful for ensuring consistent language in reports and models.\nRecommended use: - Ongoing reference - Supporting material for the course glossary\n:contentReferenceoaicite:5"
+    "objectID": "curriculum/week-01-concepts.html#day-2-build-a-defensible-recharge-zone-map-no-guessing",
+    "href": "curriculum/week-01-concepts.html#day-2-build-a-defensible-recharge-zone-map-no-guessing",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
+    "section": "Day 2 — Build a defensible recharge-zone map (no “guessing”)",
+    "text": "Day 2 — Build a defensible recharge-zone map (no “guessing”)\nYou will map recharge likelihood zones using proxy evidence.\n\nInputs (choose at least two)\nUse StreamStats + one or more of: - Hillshade / DEM view (web map or GIS) - Geologic map screenshot (state or USGS) - Soils / land cover view (optional)\n\n\nHow to classify recharge zones (rules you must apply)\nCreate 3–5 “recharge likelihood” classes and justify them:\nA. Mountain blocks / high elevation zones - Hypothesis: higher precip, runoff generation → potential mountain-front recharge (MFR) - Note uncertainty: fractured bedrock can transmit recharge, but spatially variable\nB. Alluvial fans / basin-fill margins - Hypothesis: coarse sediments + focused runoff infiltration → higher recharge potential\nC. Ephemeral channel corridors - Hypothesis: focused infiltration during stormflow; losing reaches likely in coarse alluvium\nD. Basin floor fine sediments / high ET zones - Hypothesis: generally low diffuse recharge; high evaporative demand\n\n\nDeliverable\nCreate figure_02_conceptual_model_planview.png: - Start with your basin overview (Day 1) - Add labeled polygons/regions for recharge likelihood classes - Add 5–10 annotation callouts (“Why this is likely a recharge zone”)\nAlso create a short table in your notes:\n\n\n\nRecharge zone\nEvidence used\nWhy plausible\nBiggest uncertainty"
   },
   {
-    "objectID": "curriculum/readings.html#comprehensive-reference-optional-advanced",
-    "href": "curriculum/readings.html#comprehensive-reference-optional-advanced",
-    "title": "Readings & Resources",
-    "section": "Comprehensive Reference (Optional, Advanced)",
-    "text": "Comprehensive Reference (Optional, Advanced)\n\nGroundwater — R. Allan Freeze & John A. Cherry\nA comprehensive and rigorous treatment of groundwater flow, chemistry, and modeling.\nThis classic text underpins much of modern groundwater theory and modeling practice. While not required reading for this course, selected chapters provide valuable depth on flow systems, recharge, discharge, and regional groundwater behavior.\nRecommended use: - Optional deep dives - Background reading for advanced modeling topics\n:contentReferenceoaicite:6"
+    "objectID": "curriculum/week-01-concepts.html#day-3-infer-groundwater-flow-directions-discharge-zones-with-explicit-logic",
+    "href": "curriculum/week-01-concepts.html#day-3-infer-groundwater-flow-directions-discharge-zones-with-explicit-logic",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
+    "section": "Day 3 — Infer groundwater flow directions + discharge zones (with explicit logic)",
+    "text": "Day 3 — Infer groundwater flow directions + discharge zones (with explicit logic)\n\n1) Flow directions (what you must do)\nSketch a potentiometric surface hypothesis using:\n\nTopographic gradients as first-order control (mountains → valley)\nStream corridor as potential discharge zone (baseflow/springs) or losing zone (episodic infiltration)\nPumping centers (if you can identify municipal/ag regions from public info; if not, note as “unknown”)\n\nYou are not claiming truth — you are constructing a defensible first-pass hypothesis.\n\n\n2) Discharge zones (identify at least 2 types)\nCommon arid/SW discharge mechanisms: - Spring discharge / baseflow to the river - Pumping (anthropogenic discharge) - Riparian ET (phreatophytes) where shallow water table exists\n\n\nDeliverable\nCreate figure_03_conceptual_model_xsection.png: - Cross-section from highlands → basin fill → river corridor - Include: - Hydrostratigraphy (bedrock vs basin fill) - Water table shape (conceptual) - Recharge arrows (by zone) - Discharge arrows (river/baseflow, ET, wells) - A note identifying “unknowns” (e.g., depth to bedrock, K contrasts)\nWrite 8–12 bullets answering: - “If challenged, what evidence supports my flow direction arrows?”"
   },
   {
-    "objectID": "curriculum/readings.html#how-to-use-these-readings-in-this-curriculum",
-    "href": "curriculum/readings.html#how-to-use-these-readings-in-this-curriculum",
-    "title": "Readings & Resources",
-    "section": "How to Use These Readings in This Curriculum",
-    "text": "How to Use These Readings in This Curriculum\n\nDo not attempt to read everything cover-to-cover\nUse readings to:\n\nClarify concepts encountered in exercises\nStrengthen physical intuition behind equations\nLearn the language used in professional groundwater modeling\n\nRevisit key sections as you progress through Weeks 1–4\n\nThis mirrors how practicing hydrologists actually use reference material."
+    "objectID": "curriculum/week-01-concepts.html#day-4-data-constraints-defensibility-audit",
+    "href": "curriculum/week-01-concepts.html#day-4-data-constraints-defensibility-audit",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
+    "section": "Day 4 — Data constraints + “defensibility audit”",
+    "text": "Day 4 — Data constraints + “defensibility audit”\nMake a table (this is a consulting staple):\n\n\n\n\n\n\n\n\n\nUnknown / data gap\nWhy it matters\nHow it could change conclusions\nWhat proxy you used\n\n\n\n\n\nExamples of typical arid-basin constraints: - Sparse head observations (few wells) - Poorly constrained hydraulic conductivity zonation - Recharge magnitude & timing unknown - Stream–aquifer interaction unknown (losing vs gaining varies) - Pumping time series unknown\nThen write two lists:\nMost defensible assumptions (5–8)\nMost vulnerable assumptions (5–8)\nFinally, write 3 “challenge questions” someone could ask in a review: - “How do you know recharge is focused there?” - “Why is that boundary no-flow?” - “What evidence supports gaining vs losing reaches?”"
+  },
+  {
+    "objectID": "curriculum/week-01-concepts.html#day-5-write-the-conceptual-model-memo-portfolio-piece",
+    "href": "curriculum/week-01-concepts.html#day-5-write-the-conceptual-model-memo-portfolio-piece",
+    "title": "Week 1 – Conceptual Models & Arid Hydrology (Arizona Case Study)",
+    "section": "Day 5 — Write the conceptual model memo (portfolio piece)",
+    "text": "Day 5 — Write the conceptual model memo (portfolio piece)\nCreate upper-verde_conceptual-model-memo.md_"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hydrologic Modeling in Arid Systems",
+    "section": "",
+    "text": "This repository documents a one-month self-directed curriculum focused on defensible groundwater and hydrologic modeling in arid and semi-arid systems, with an emphasis on:\n\nSparse data environments\n\nGroundwater-dominated basins\n\nRecharge uncertainty\n\nOpen-source modeling tools\n\nThe goal is not to produce “perfect” models, but to understand, explain, and defend modeling assumptions, consistent with real-world consulting practice."
+  },
+  {
+    "objectID": "index.html#purpose",
+    "href": "index.html#purpose",
+    "title": "Hydrologic Modeling in Arid Systems",
+    "section": "",
+    "text": "This repository documents a one-month self-directed curriculum focused on defensible groundwater and hydrologic modeling in arid and semi-arid systems, with an emphasis on:\n\nSparse data environments\n\nGroundwater-dominated basins\n\nRecharge uncertainty\n\nOpen-source modeling tools\n\nThe goal is not to produce “perfect” models, but to understand, explain, and defend modeling assumptions, consistent with real-world consulting practice."
+  },
+  {
+    "objectID": "index.html#audience",
+    "href": "index.html#audience",
+    "title": "Hydrologic Modeling in Arid Systems",
+    "section": "Audience",
+    "text": "Audience\n\nEarly-career hydrologists\nGraduate students\nPractitioners transitioning into modeling-heavy roles"
+  },
+  {
+    "objectID": "index.html#tools",
+    "href": "index.html#tools",
+    "title": "Hydrologic Modeling in Arid Systems",
+    "section": "Tools",
+    "text": "Tools\n\nMODFLOW 6\nFloPy\nModelMuse\nPython / Jupyter\nQuarto"
+  },
+  {
+    "objectID": "index.html#structure",
+    "href": "index.html#structure",
+    "title": "Hydrologic Modeling in Arid Systems",
+    "section": "Structure",
+    "text": "Structure\nThe curriculum is organized into four weeks, each combining:\n\nConceptual grounding\nHands-on modeling\nUncertainty analysis\nProfessional communication"
   }
 ]
